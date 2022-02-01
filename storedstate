@@ -1,1 +1,1 @@
-{"udi":{"pid":"Tailf-NSO","sn":"b82d0779-7ae8-4147-9176-e0dab9cc3ca4","vid":null,"suvi":null,"uuid":null,"hostIdentifier":null,"macaddress":null},"trustedStore":"./state/smartlic","eventLogPath":"./state/smartlic","url":"https://smartreceiver.cisco.com/licservice/license","prodUsed":true}
+{"udi":{"pid":"Tailf-NSO","sn":"6966d3a8-8c6b-4fe4-a4f3-866fc44aafa7","vid":null,"suvi":null,"uuid":null,"hostIdentifier":null,"macaddress":null},"trustedStore":"./state/smartlic","eventLogPath":"./state/smartlic","url":"https://smartreceiver.cisco.com/licservice/license","prodUsed":true}

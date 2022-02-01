@@ -21,6 +21,7 @@ module devdays {
             enum "in-person";
             enum "virtual";
             enum "pelle";
+            enum "nisse";
         }
     }   
 
