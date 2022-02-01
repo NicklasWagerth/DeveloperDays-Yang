@@ -1,0 +1,47 @@
+# Created by: system
+# Date: 2022-02-01 10:26:19
+# Via: system
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10001
+# TransactionId: 18
+# Hostname: NWAGERTH-M-90GM
+
+snmp:snmp {
+    snmp:agent {
+        snmp:enabled false;
+        delete:
+        snmp:engine-id;
+        snmp:version {
+            delete:
+            snmp:v2c;
+            delete:
+            snmp:v1;
+            delete:
+            snmp:v3;
+        }
+    }
+    delete:
+    snmp:community public;
+    snmp:vacm {
+        delete:
+        snmp:group initial;
+        delete:
+        snmp:group public;
+        delete:
+        snmp:view internet;
+        delete:
+        snmp:view restricted;
+    }
+    delete:
+    snmp:notify foo;
+    snmp:usm {
+        snmp:local {
+            delete:
+            snmp:user initial;
+        }
+    }
+    delete:
+    snmp:target monitor;
+}

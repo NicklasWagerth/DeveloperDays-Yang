@@ -1,0 +1,632 @@
+<INFO> 1-Feb-2022::10:26:18.284 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in early_phase0:
+	[]
+<INFO> 1-Feb-2022::10:26:18.620 NWAGERTH-M-90GM ncs[9839]: ncs mmap_schema, started
+<INFO> 1-Feb-2022::10:26:18.633 NWAGERTH-M-90GM ncs[9839]: ncs mmap_schema not supported on platform
+<INFO> 1-Feb-2022::10:26:18.675 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in phase0:
+	[]
+<DEBUG> 1-Feb-2022::10:26:18.744 NWAGERTH-M-90GM ncs[9839]: devel-cdb Using delayed CDB journal compaction (automatic mode)
+<INFO> 1-Feb-2022::10:26:18.889 NWAGERTH-M-90GM ncs[9839]: devel-cdb Initialized with empty snapshot db
+<INFO> 1-Feb-2022::10:26:18.893 NWAGERTH-M-90GM ncs[9839]: devel-cdb Compacted S.cdb journal file: 0 ms (1 nodes in memory, disk size 4 bytes -> 32 bytes)
+<INFO> 1-Feb-2022::10:26:18.913 NWAGERTH-M-90GM ncs[9839]: devel-cdb init files found in /Users/nwagerth/nso-5.5/var/ncs/cdb: aaa_init.xml, ncs_defaults.xml, sls_defaults.xml, tailf-ncs-alarms_init.xml
+<INFO> 1-Feb-2022::10:26:18.913 NWAGERTH-M-90GM ncs[9839]: devel-cdb init files found in ./ncs-cdb: 
+<INFO> 1-Feb-2022::10:26:18.913 NWAGERTH-M-90GM ncs[9839]: devel-cdb init files found in ./state/packages-in-use/1/devdays/load-dir: 
+<INFO> 1-Feb-2022::10:26:18.996 NWAGERTH-M-90GM ncs[9839]: ncs encryptedStrings keys provided from config
+<INFO> 1-Feb-2022::10:26:19.016 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system applying transaction
+<INFO> 1-Feb-2022::10:26:19.016 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system entering validate phase
+<INFO> 1-Feb-2022::10:26:19.017 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system grabbing transaction lock
+<INFO> 1-Feb-2022::10:26:19.017 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system grabbing transaction lock: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.017 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system mark inactive
+<INFO> 1-Feb-2022::10:26:19.023 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system mark inactive: ok (0.006 s)
+<INFO> 1-Feb-2022::10:26:19.029 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system pre validate
+<INFO> 1-Feb-2022::10:26:19.031 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system pre validate: ok (0.001 s)
+<INFO> 1-Feb-2022::10:26:19.032 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system run validation over the changeset
+<INFO> 1-Feb-2022::10:26:19.063 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system run validation over the changeset: ok (0.030 s)
+<INFO> 1-Feb-2022::10:26:19.083 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system run dependency-triggered validation
+<INFO> 1-Feb-2022::10:26:19.089 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system run dependency-triggered validation: ok (0.026 s)
+<INFO> 1-Feb-2022::10:26:19.089 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system check configuration policies
+<INFO> 1-Feb-2022::10:26:19.089 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system check configuration policies: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.089 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system leaving validate phase (0.072 s)
+<INFO> 1-Feb-2022::10:26:19.090 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system entering write-start phase
+<INFO> 1-Feb-2022::10:26:19.090 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system subsystem=cdb write-start
+<INFO> 1-Feb-2022::10:26:19.099 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system leaving write-start phase (0.010 s)
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system entering prepare phase
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system subsystem=cdb prepare
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system leaving prepare phase (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system entering commit phase
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system subsystem=cdb commit
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system releasing transaction lock
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system leaving commit phase (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.100 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=5 tid=-2 datastore=running context=system applying transaction: ok (0.083 s)
+<DEBUG> 1-Feb-2022::10:26:19.102 NWAGERTH-M-90GM ncs[9839]: devel-cdb Delaying CDB journal compaction
+<INFO> 1-Feb-2022::10:26:19.108 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in phase1:
+	[]
+<DEBUG> 1-Feb-2022::10:26:19.224 NWAGERTH-M-90GM ncs[9839]: devel-c New daemon connected (name: ncs-internal-device-mgr, daemon id: 0)
+<DEBUG> 1-Feb-2022::10:26:19.224 NWAGERTH-M-90GM ncs[9839]: devel-c New worker connected (daemon id: 0 worker id: 1)
+<DEBUG> 1-Feb-2022::10:26:19.256 NWAGERTH-M-90GM ncs[9839]: devel-c New daemon connected (name: snmp-config-transform, daemon id: 1)
+<DEBUG> 1-Feb-2022::10:26:19.257 NWAGERTH-M-90GM ncs[9839]: devel-c New worker connected (daemon id: 1 worker id: 4)
+<DEBUG> 1-Feb-2022::10:26:19.261 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from snmp-config-transform
+<DEBUG> 1-Feb-2022::10:26:19.261 NWAGERTH-M-90GM ncs[9839]: devel-cdb client snmp-config-transform has pid 9852/6
+<DEBUG> 1-Feb-2022::10:26:19.261 NWAGERTH-M-90GM ncs[9839]: devel-cdb inactive client snmp-config-transform closed
+<DEBUG> 1-Feb-2022::10:26:19.262 NWAGERTH-M-90GM ncs[9839]: devel-c New daemon connected (name: snmp-config-hook, daemon id: 2)
+<DEBUG> 1-Feb-2022::10:26:19.262 NWAGERTH-M-90GM ncs[9839]: devel-c New worker connected (daemon id: 2 worker id: 7)
+<DEBUG> 1-Feb-2022::10:26:19.280 NWAGERTH-M-90GM ncs[9839]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 3)
+<DEBUG> 1-Feb-2022::10:26:19.280 NWAGERTH-M-90GM ncs[9839]: devel-c New worker connected (daemon id: 3 worker id: 1)
+<DEBUG> 1-Feb-2022::10:26:19.287 NWAGERTH-M-90GM ncs[9839]: devel-c New daemon connected (name: ncs-internal-service-mux, daemon id: 4)
+<DEBUG> 1-Feb-2022::10:26:19.287 NWAGERTH-M-90GM ncs[9839]: devel-c New worker connected (daemon id: 4 worker id: 1)
+<DEBUG> 1-Feb-2022::10:26:19.288 NWAGERTH-M-90GM ncs[9839]: devel-c New daemon connected (name: ncs-internal-service-mux-completion, daemon id: 5)
+<DEBUG> 1-Feb-2022::10:26:19.288 NWAGERTH-M-90GM ncs[9839]: devel-c New worker connected (daemon id: 5 worker id: 1)
+<INFO> 1-Feb-2022::10:26:19.308 NWAGERTH-M-90GM ncs[9839]: ncs initializing kickers
+<INFO> 1-Feb-2022::10:26:19.308 NWAGERTH-M-90GM ncs[9839]: ncs initializing kickers: ok (0.000 s)
+<DEBUG> 1-Feb-2022::10:26:19.521 NWAGERTH-M-90GM ncs[9839]: devel-cdb Loaded AAA data from CDB
+<INFO> 1-Feb-2022::10:26:19.575 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in phase1_delayed:
+	[]
+<INFO> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system applying transaction
+<DEBUG> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: devel-c new_usess db request daemon id: 4
+<INFO> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system entering validate phase
+<DEBUG> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 4
+<INFO> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system grabbing transaction lock
+<DEBUG> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans request daemon id: 4 thandle: 14
+<INFO> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system grabbing transaction lock: ok (0.000 s)
+<DEBUG> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans succeeded daemon id: 4 session id: 14 worker id: 1
+<DEBUG> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: devel-c new_usess db request daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.620 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans request daemon id: 0 thandle: 14
+<DEBUG> 1-Feb-2022::10:26:19.621 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans succeeded daemon id: 0 session id: 14 worker id: 1
+<DEBUG> 1-Feb-2022::10:26:19.621 NWAGERTH-M-90GM ncs[9839]: devel-c trans_lock request daemon id: 4 session id: 14
+<DEBUG> 1-Feb-2022::10:26:19.621 NWAGERTH-M-90GM ncs[9839]: devel-c trans_lock succeeded daemon id: 4 session id: 14
+<INFO> 1-Feb-2022::10:26:19.621 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system creating rollback file
+<INFO> 1-Feb-2022::10:26:19.624 NWAGERTH-M-90GM ncs[9839]: ncs Getting delta diff, no alt-name: true
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system creating rollback file: ok (0.003 s)
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system run transforms and transaction hooks
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system run transforms and transaction hooks: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system mark inactive
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system mark inactive: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system pre validate
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system pre validate: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.625 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system run validation over the changeset
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system run validation over the changeset: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system run dependency-triggered validation
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system run dependency-triggered validation: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system check configuration policies
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system check configuration policies: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system leaving validate phase (0.006 s)
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system entering write-start phase
+<INFO> 1-Feb-2022::10:26:19.626 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system subsystem=cdb write-start
+<INFO> 1-Feb-2022::10:26:19.628 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system check data kickers
+<INFO> 1-Feb-2022::10:26:19.628 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system check data kickers: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.628 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system leaving write-start phase (0.001 s)
+<INFO> 1-Feb-2022::10:26:19.628 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system entering prepare phase
+<INFO> 1-Feb-2022::10:26:19.628 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system subsystem=cdb prepare
+<INFO> 1-Feb-2022::10:26:19.628 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system subsystem=ncs-internal-device-mgr prepare
+<DEBUG> 1-Feb-2022::10:26:19.628 NWAGERTH-M-90GM ncs[9839]: devel-c prepare request daemon id: 0 session id: 14
+<DEBUG> 1-Feb-2022::10:26:19.640 NWAGERTH-M-90GM ncs[9839]: devel-c prepare succeeded daemon id: 0 session id: 14
+<INFO> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system leaving prepare phase (0.012 s)
+<INFO> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system entering commit phase
+<INFO> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system subsystem=cdb commit
+<INFO> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system subsystem=ncs-internal-service-mux commit
+<DEBUG> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: devel-c commit request daemon id: 4 session id: 14
+<INFO> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system subsystem=ncs-internal-device-mgr commit
+<DEBUG> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: devel-c commit succeeded daemon id: 4 session id: 14
+<DEBUG> 1-Feb-2022::10:26:19.641 NWAGERTH-M-90GM ncs[9839]: devel-c commit request daemon id: 0 session id: 14
+<DEBUG> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: devel-c commit succeeded daemon id: 0 session id: 14
+<INFO> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system releasing transaction lock
+<DEBUG> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans request daemon id: 4 session id: 14
+<INFO> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system leaving commit phase (0.010 s)
+<DEBUG> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans succeeded daemon id: 4 session id: 14
+<INFO> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=22 tid=14 datastore=running context=system applying transaction: ok (0.031 s)
+<DEBUG> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans request daemon id: 0 session id: 14
+<DEBUG> 1-Feb-2022::10:26:19.651 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans succeeded daemon id: 0 session id: 14
+<DEBUG> 1-Feb-2022::10:26:19.652 NWAGERTH-M-90GM ncs[9839]: devel-c close_usess db request daemon id: 4
+<DEBUG> 1-Feb-2022::10:26:19.652 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 4
+<DEBUG> 1-Feb-2022::10:26:19.652 NWAGERTH-M-90GM ncs[9839]: devel-c close_usess db request daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.652 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.654 NWAGERTH-M-90GM ncs[9839]: devel-c new_usess db request daemon id: 1
+<DEBUG> 1-Feb-2022::10:26:19.654 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 1
+<DEBUG> 1-Feb-2022::10:26:19.654 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans request daemon id: 1 thandle: 18
+<DEBUG> 1-Feb-2022::10:26:19.655 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans succeeded daemon id: 1 session id: 18 worker id: 4
+<DEBUG> 1-Feb-2022::10:26:19.655 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.655 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.655 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.656 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.656 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-Feb-2022::10:26:19.656 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-Feb-2022::10:26:19.656 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-Feb-2022::10:26:19.657 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/ip
+<DEBUG> 1-Feb-2022::10:26:19.657 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.657 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.657 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.658 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.658 NWAGERTH-M-90GM ncs[9839]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-Feb-2022::10:26:19.658 NWAGERTH-M-90GM ncs[9839]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-Feb-2022::10:26:19.659 NWAGERTH-M-90GM ncs[9839]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-Feb-2022::10:26:19.659 NWAGERTH-M-90GM ncs[9839]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-Feb-2022::10:26:19.659 NWAGERTH-M-90GM ncs[9839]: devel-c exists request for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-Feb-2022::10:26:19.660 NWAGERTH-M-90GM ncs[9839]: devel-c exists succeeded for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-Feb-2022::10:26:19.660 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-Feb-2022::10:26:19.661 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-Feb-2022::10:26:19.661 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-Feb-2022::10:26:19.661 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/max-message-size
+<DEBUG> 1-Feb-2022::10:26:19.661 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-Feb-2022::10:26:19.662 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-Feb-2022::10:26:19.662 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-Feb-2022::10:26:19.662 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/contact
+<DEBUG> 1-Feb-2022::10:26:19.663 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-Feb-2022::10:26:19.663 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-Feb-2022::10:26:19.663 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-Feb-2022::10:26:19.664 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/name
+<DEBUG> 1-Feb-2022::10:26:19.664 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-Feb-2022::10:26:19.665 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-Feb-2022::10:26:19.665 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-Feb-2022::10:26:19.665 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/system/location
+<DEBUG> 1-Feb-2022::10:26:19.666 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/name
+<DEBUG> 1-Feb-2022::10:26:19.666 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/name
+<DEBUG> 1-Feb-2022::10:26:19.667 NWAGERTH-M-90GM ncs[9839]: devel-c get_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-Feb-2022::10:26:19.668 NWAGERTH-M-90GM ncs[9839]: devel-c get_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-Feb-2022::10:26:19.668 NWAGERTH-M-90GM ncs[9839]: devel-c get_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-Feb-2022::10:26:19.669 NWAGERTH-M-90GM ncs[9839]: devel-c get_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-Feb-2022::10:26:19.670 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-Feb-2022::10:26:19.671 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/name
+<DEBUG> 1-Feb-2022::10:26:19.671 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.672 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.672 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.672 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.673 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-Feb-2022::10:26:19.673 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-Feb-2022::10:26:19.674 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-Feb-2022::10:26:19.674 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-Feb-2022::10:26:19.674 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-Feb-2022::10:26:19.675 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-Feb-2022::10:26:19.675 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-Feb-2022::10:26:19.675 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-Feb-2022::10:26:19.676 NWAGERTH-M-90GM ncs[9839]: devel-c get_case request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-Feb-2022::10:26:19.676 NWAGERTH-M-90GM ncs[9839]: devel-c get_case succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-Feb-2022::10:26:19.677 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint community path /snmp:snmp/community{public}/index
+<DEBUG> 1-Feb-2022::10:26:19.677 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint community path /snmp:snmp/community{public}/index
+<DEBUG> 1-Feb-2022::10:26:19.677 NWAGERTH-M-90GM ncs[9839]: devel-c new_usess db request daemon id: 2
+<DEBUG> 1-Feb-2022::10:26:19.678 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 2
+<DEBUG> 1-Feb-2022::10:26:19.678 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans request daemon id: 2 thandle: 18
+<DEBUG> 1-Feb-2022::10:26:19.678 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans succeeded daemon id: 2 session id: 18 worker id: 7
+<DEBUG> 1-Feb-2022::10:26:19.678 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint 'community-hook' path /snmp:snmp/community{public}
+<DEBUG> 1-Feb-2022::10:26:19.679 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint 'community-hook' path /snmp:snmp/community{public}
+<DEBUG> 1-Feb-2022::10:26:19.679 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 1-Feb-2022::10:26:19.680 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/name
+<DEBUG> 1-Feb-2022::10:26:19.701 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.702 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.703 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.703 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.703 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/name
+<DEBUG> 1-Feb-2022::10:26:19.704 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/name
+<DEBUG> 1-Feb-2022::10:26:19.705 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/name
+<DEBUG> 1-Feb-2022::10:26:19.706 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/name
+<DEBUG> 1-Feb-2022::10:26:19.706 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/name
+<DEBUG> 1-Feb-2022::10:26:19.707 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/name
+<DEBUG> 1-Feb-2022::10:26:19.707 NWAGERTH-M-90GM ncs[9839]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-Feb-2022::10:26:19.708 NWAGERTH-M-90GM ncs[9839]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-Feb-2022::10:26:19.708 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/name
+<DEBUG> 1-Feb-2022::10:26:19.709 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/name
+<DEBUG> 1-Feb-2022::10:26:19.730 NWAGERTH-M-90GM ncs[9839]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-Feb-2022::10:26:19.730 NWAGERTH-M-90GM ncs[9839]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-Feb-2022::10:26:19.731 NWAGERTH-M-90GM ncs[9839]: devel-c get_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: devel-c get_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<INFO> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system applying transaction
+<INFO> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system entering validate phase
+<INFO> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system grabbing transaction lock
+<INFO> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system grabbing transaction lock: ok (0.000 s)
+<DEBUG> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: devel-c new_usess db request daemon id: 4
+<DEBUG> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 4
+<DEBUG> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans request daemon id: 4 thandle: 18
+<DEBUG> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans succeeded daemon id: 4 session id: 18 worker id: 1
+<DEBUG> 1-Feb-2022::10:26:19.732 NWAGERTH-M-90GM ncs[9839]: devel-c new_usess db request daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.733 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.733 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans request daemon id: 0 thandle: 18
+<DEBUG> 1-Feb-2022::10:26:19.733 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans succeeded daemon id: 0 session id: 18 worker id: 1
+<DEBUG> 1-Feb-2022::10:26:19.733 NWAGERTH-M-90GM ncs[9839]: devel-c trans_lock request daemon id: 4 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.733 NWAGERTH-M-90GM ncs[9839]: devel-c trans_lock succeeded daemon id: 4 session id: 18
+<INFO> 1-Feb-2022::10:26:19.733 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system creating rollback file
+<INFO> 1-Feb-2022::10:26:19.736 NWAGERTH-M-90GM ncs[9839]: ncs Getting delta diff, no alt-name: true
+<DEBUG> 1-Feb-2022::10:26:19.736 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans request daemon id: 1 thandle: 19
+<DEBUG> 1-Feb-2022::10:26:19.737 NWAGERTH-M-90GM ncs[9839]: devel-c new_trans succeeded daemon id: 1 session id: 19 worker id: 4
+<DEBUG> 1-Feb-2022::10:26:19.737 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.737 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.737 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.738 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.738 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.738 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.740 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans request daemon id: 1 session id: 19
+<DEBUG> 1-Feb-2022::10:26:19.741 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans succeeded daemon id: 1 session id: 19
+<INFO> 1-Feb-2022::10:26:19.741 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system creating rollback file: ok (0.007 s)
+<INFO> 1-Feb-2022::10:26:19.741 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system run transforms and transaction hooks
+<DEBUG> 1-Feb-2022::10:26:19.742 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint agent path /snmp:snmp/agent/engine-id
+<DEBUG> 1-Feb-2022::10:26:19.742 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/engine-id
+<DEBUG> 1-Feb-2022::10:26:19.742 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/engine-id/enterprise-number
+<DEBUG> 1-Feb-2022::10:26:19.745 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/engine-id/enterprise-number
+<DEBUG> 1-Feb-2022::10:26:19.745 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/engine-id/from-text
+<DEBUG> 1-Feb-2022::10:26:19.747 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/engine-id/from-text
+<DEBUG> 1-Feb-2022::10:26:19.747 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.747 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.747 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-Feb-2022::10:26:19.749 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v1
+<DEBUG> 1-Feb-2022::10:26:19.749 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-Feb-2022::10:26:19.750 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v2c
+<DEBUG> 1-Feb-2022::10:26:19.750 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-Feb-2022::10:26:19.751 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint agent path /snmp:snmp/agent/version/v3
+<DEBUG> 1-Feb-2022::10:26:19.751 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}
+<DEBUG> 1-Feb-2022::10:26:19.753 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}
+<DEBUG> 1-Feb-2022::10:26:19.753 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-Feb-2022::10:26:19.753 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-Feb-2022::10:26:19.754 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-Feb-2022::10:26:19.754 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth
+<DEBUG> 1-Feb-2022::10:26:19.755 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-Feb-2022::10:26:19.755 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-Feb-2022::10:26:19.755 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-Feb-2022::10:26:19.755 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha
+<DEBUG> 1-Feb-2022::10:26:19.755 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha/password
+<DEBUG> 1-Feb-2022::10:26:19.780 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/auth/sha/password
+<DEBUG> 1-Feb-2022::10:26:19.803 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-Feb-2022::10:26:19.803 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-Feb-2022::10:26:19.804 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-Feb-2022::10:26:19.804 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv
+<DEBUG> 1-Feb-2022::10:26:19.805 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-Feb-2022::10:26:19.805 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-Feb-2022::10:26:19.805 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-Feb-2022::10:26:19.805 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes
+<DEBUG> 1-Feb-2022::10:26:19.805 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes/password
+<DEBUG> 1-Feb-2022::10:26:19.831 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint usm path /snmp:snmp/usm/local/user{initial}/priv/aes/password
+<DEBUG> 1-Feb-2022::10:26:19.831 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-Feb-2022::10:26:19.833 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-Feb-2022::10:26:19.833 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-Feb-2022::10:26:19.835 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint target path /snmp:snmp/target{monitor}
+<DEBUG> 1-Feb-2022::10:26:19.835 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/ip
+<DEBUG> 1-Feb-2022::10:26:19.836 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/ip
+<DEBUG> 1-Feb-2022::10:26:19.836 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.836 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/udp-port
+<DEBUG> 1-Feb-2022::10:26:19.836 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 1-Feb-2022::10:26:19.837 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 1-Feb-2022::10:26:19.837 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-Feb-2022::10:26:19.837 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/timeout
+<DEBUG> 1-Feb-2022::10:26:19.837 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-Feb-2022::10:26:19.838 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/retries
+<DEBUG> 1-Feb-2022::10:26:19.838 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/v2c/sec-name
+<DEBUG> 1-Feb-2022::10:26:19.839 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/v2c/sec-name
+<DEBUG> 1-Feb-2022::10:26:19.839 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint community path /snmp:snmp/community{public}
+<DEBUG> 1-Feb-2022::10:26:19.840 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint community path /snmp:snmp/community{public}
+<DEBUG> 1-Feb-2022::10:26:19.840 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint community path /snmp:snmp/community{public}/sec-name
+<DEBUG> 1-Feb-2022::10:26:19.840 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint community path /snmp:snmp/community{public}/sec-name
+<DEBUG> 1-Feb-2022::10:26:19.841 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint notify path /snmp:snmp/notify{foo}
+<DEBUG> 1-Feb-2022::10:26:19.841 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint notify path /snmp:snmp/notify{foo}
+<DEBUG> 1-Feb-2022::10:26:19.841 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint notify path /snmp:snmp/notify{foo}/tag
+<DEBUG> 1-Feb-2022::10:26:19.841 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/tag
+<DEBUG> 1-Feb-2022::10:26:19.841 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.842 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.842 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}
+<DEBUG> 1-Feb-2022::10:26:19.842 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}
+<DEBUG> 1-Feb-2022::10:26:19.842 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}
+<DEBUG> 1-Feb-2022::10:26:19.842 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}
+<DEBUG> 1-Feb-2022::10:26:19.842 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.843 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.843 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}
+<DEBUG> 1-Feb-2022::10:26:19.844 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}
+<DEBUG> 1-Feb-2022::10:26:19.844 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.844 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.844 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.845 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm no-auth-no-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.845 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}
+<DEBUG> 1-Feb-2022::10:26:19.845 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}
+<DEBUG> 1-Feb-2022::10:26:19.846 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.846 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.846 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.847 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-no-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.847 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}
+<DEBUG> 1-Feb-2022::10:26:19.847 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}
+<DEBUG> 1-Feb-2022::10:26:19.847 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.848 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.848 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.849 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/access{usm auth-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.849 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}
+<DEBUG> 1-Feb-2022::10:26:19.849 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}
+<DEBUG> 1-Feb-2022::10:26:19.849 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}
+<DEBUG> 1-Feb-2022::10:26:19.849 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}
+<DEBUG> 1-Feb-2022::10:26:19.849 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.850 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.850 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}
+<DEBUG> 1-Feb-2022::10:26:19.851 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}
+<DEBUG> 1-Feb-2022::10:26:19.851 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.851 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/read-view
+<DEBUG> 1-Feb-2022::10:26:19.851 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.852 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/access{any no-auth-no-priv}/notify-view
+<DEBUG> 1-Feb-2022::10:26:19.852 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}
+<DEBUG> 1-Feb-2022::10:26:19.852 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}
+<DEBUG> 1-Feb-2022::10:26:19.852 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-Feb-2022::10:26:19.853 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-Feb-2022::10:26:19.853 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-Feb-2022::10:26:19.853 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}
+<DEBUG> 1-Feb-2022::10:26:19.854 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}/included
+<DEBUG> 1-Feb-2022::10:26:19.854 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{internet}/subtree{1.3.6.1}/included
+<DEBUG> 1-Feb-2022::10:26:19.854 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}
+<DEBUG> 1-Feb-2022::10:26:19.854 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}
+<DEBUG> 1-Feb-2022::10:26:19.854 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-Feb-2022::10:26:19.855 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-Feb-2022::10:26:19.855 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-Feb-2022::10:26:19.855 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}
+<DEBUG> 1-Feb-2022::10:26:19.855 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}/included
+<DEBUG> 1-Feb-2022::10:26:19.856 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.11.2.1}/included
+<DEBUG> 1-Feb-2022::10:26:19.856 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-Feb-2022::10:26:19.857 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-Feb-2022::10:26:19.857 NWAGERTH-M-90GM ncs[9839]: devel-c set_case request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-Feb-2022::10:26:19.857 NWAGERTH-M-90GM ncs[9839]: devel-c set_case succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}
+<DEBUG> 1-Feb-2022::10:26:19.857 NWAGERTH-M-90GM ncs[9839]: devel-c create request for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}/included
+<DEBUG> 1-Feb-2022::10:26:19.857 NWAGERTH-M-90GM ncs[9839]: devel-c create succeeded for callpoint vacm_view path /snmp:snmp/vacm/view{restricted}/subtree{1.3.6.1.6.3.15.1.1}/included
+<DEBUG> 1-Feb-2022::10:26:19.858 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.859 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{initial}/member{initial}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.859 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.860 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint vacm_group path /snmp:snmp/vacm/group{public}/member{public}/sec-model
+<DEBUG> 1-Feb-2022::10:26:19.860 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem request for callpoint target path /snmp:snmp/target{monitor}/tag
+<DEBUG> 1-Feb-2022::10:26:19.860 NWAGERTH-M-90GM ncs[9839]: devel-c set_elem succeeded for callpoint target path /snmp:snmp/target{monitor}/tag
+<INFO> 1-Feb-2022::10:26:19.860 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system run transforms and transaction hooks: ok (0.119 s)
+<INFO> 1-Feb-2022::10:26:19.860 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system mark inactive
+<DEBUG> 1-Feb-2022::10:26:19.861 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint agent path /snmp:snmp/agent/enabled
+<DEBUG> 1-Feb-2022::10:26:19.862 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint agent path /snmp:snmp/agent/enabled
+<INFO> 1-Feb-2022::10:26:19.862 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system mark inactive: ok (0.001 s)
+<INFO> 1-Feb-2022::10:26:19.862 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system pre validate
+<INFO> 1-Feb-2022::10:26:19.863 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system pre validate: ok (0.001 s)
+<INFO> 1-Feb-2022::10:26:19.864 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system run validation over the changeset
+<DEBUG> 1-Feb-2022::10:26:19.865 NWAGERTH-M-90GM ncs[9839]: devel-c new_validate request daemon id: 1 thandle: 18
+<INFO> 1-Feb-2022::10:26:19.865 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=snmp-config-transform validate
+<DEBUG> 1-Feb-2022::10:26:19.866 NWAGERTH-M-90GM ncs[9839]: devel-c new_validate succeeded daemon id: 1 session id: 18 worker id: 4
+<DEBUG> 1-Feb-2022::10:26:19.866 NWAGERTH-M-90GM ncs[9839]: devel-c validate request for path /snmp:snmp/vacm/group
+<DEBUG> 1-Feb-2022::10:26:19.866 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=snmp-config-transform invoking vacm-group validation point
+<DEBUG> 1-Feb-2022::10:26:19.866 NWAGERTH-M-90GM ncs[9839]: devel-c validate succeeded for path /snmp:snmp/vacm/group
+<DEBUG> 1-Feb-2022::10:26:19.873 NWAGERTH-M-90GM ncs[9839]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 1-Feb-2022::10:26:19.873 NWAGERTH-M-90GM ncs[9839]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<INFO> 1-Feb-2022::10:26:19.874 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system run validation over the changeset: ok (0.010 s)
+<INFO> 1-Feb-2022::10:26:19.874 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system run dependency-triggered validation
+<DEBUG> 1-Feb-2022::10:26:19.874 NWAGERTH-M-90GM ncs[9839]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 1-Feb-2022::10:26:19.875 NWAGERTH-M-90GM ncs[9839]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 1-Feb-2022::10:26:19.875 NWAGERTH-M-90GM ncs[9839]: devel-c get_next request for callpoint community path /snmp:snmp/community
+<DEBUG> 1-Feb-2022::10:26:19.875 NWAGERTH-M-90GM ncs[9839]: devel-c get_next succeeded for callpoint community path /snmp:snmp/community
+<DEBUG> 1-Feb-2022::10:26:19.875 NWAGERTH-M-90GM ncs[9839]: devel-c get_next request for callpoint notify path /snmp:snmp/notify
+<DEBUG> 1-Feb-2022::10:26:19.876 NWAGERTH-M-90GM ncs[9839]: devel-c get_next succeeded for callpoint notify path /snmp:snmp/notify
+<DEBUG> 1-Feb-2022::10:26:19.876 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem request for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.876 NWAGERTH-M-90GM ncs[9839]: devel-c get_elem succeeded for callpoint notify path /snmp:snmp/notify{foo}/type
+<DEBUG> 1-Feb-2022::10:26:19.876 NWAGERTH-M-90GM ncs[9839]: devel-c get_next request for callpoint notify path /snmp:snmp/notify
+<DEBUG> 1-Feb-2022::10:26:19.877 NWAGERTH-M-90GM ncs[9839]: devel-c get_next succeeded for callpoint notify path /snmp:snmp/notify
+<INFO> 1-Feb-2022::10:26:19.877 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system run dependency-triggered validation: ok (0.003 s)
+<INFO> 1-Feb-2022::10:26:19.877 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system check configuration policies
+<INFO> 1-Feb-2022::10:26:19.877 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system check configuration policies: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.877 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system leaving validate phase (0.145 s)
+<INFO> 1-Feb-2022::10:26:19.877 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system entering write-start phase
+<INFO> 1-Feb-2022::10:26:19.877 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=cdb write-start
+<INFO> 1-Feb-2022::10:26:19.879 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system check data kickers
+<INFO> 1-Feb-2022::10:26:19.879 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system check data kickers: ok (0.000 s)
+<INFO> 1-Feb-2022::10:26:19.880 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system leaving write-start phase (0.003 s)
+<INFO> 1-Feb-2022::10:26:19.880 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system entering prepare phase
+<INFO> 1-Feb-2022::10:26:19.880 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=cdb prepare
+<INFO> 1-Feb-2022::10:26:19.880 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=ncs-internal-device-mgr prepare
+<DEBUG> 1-Feb-2022::10:26:19.880 NWAGERTH-M-90GM ncs[9839]: devel-c prepare request daemon id: 0 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.884 NWAGERTH-M-90GM ncs[9839]: devel-c prepare succeeded daemon id: 0 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.884 NWAGERTH-M-90GM ncs[9839]: devel-c close_validate request daemon id: 1 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.885 NWAGERTH-M-90GM ncs[9839]: devel-c close_validate succeeded daemon id: 1 session id: 18
+<INFO> 1-Feb-2022::10:26:19.885 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system leaving prepare phase (0.004 s)
+<INFO> 1-Feb-2022::10:26:19.885 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system entering commit phase
+<INFO> 1-Feb-2022::10:26:19.885 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=cdb commit
+<INFO> 1-Feb-2022::10:26:19.886 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=ncs-internal-service-mux commit
+<DEBUG> 1-Feb-2022::10:26:19.886 NWAGERTH-M-90GM ncs[9839]: devel-c commit request daemon id: 4 session id: 18
+<INFO> 1-Feb-2022::10:26:19.886 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system subsystem=ncs-internal-device-mgr commit
+<DEBUG> 1-Feb-2022::10:26:19.886 NWAGERTH-M-90GM ncs[9839]: devel-c commit succeeded daemon id: 4 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.886 NWAGERTH-M-90GM ncs[9839]: devel-c commit request daemon id: 0 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.887 NWAGERTH-M-90GM ncs[9839]: devel-c commit succeeded daemon id: 0 session id: 18
+<INFO> 1-Feb-2022::10:26:19.887 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system releasing transaction lock
+<INFO> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system leaving commit phase (0.002 s)
+<DEBUG> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans request daemon id: 4 session id: 18
+<INFO> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=23 tid=18 datastore=running context=system applying transaction: ok (0.155 s)
+<DEBUG> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans succeeded daemon id: 4 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans request daemon id: 0 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans succeeded daemon id: 0 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans request daemon id: 2 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.888 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans succeeded daemon id: 2 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.889 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans request daemon id: 1 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.889 NWAGERTH-M-90GM ncs[9839]: devel-c close_trans succeeded daemon id: 1 session id: 18
+<DEBUG> 1-Feb-2022::10:26:19.889 NWAGERTH-M-90GM ncs[9839]: devel-c close_usess db request daemon id: 4
+<DEBUG> 1-Feb-2022::10:26:19.889 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 4
+<DEBUG> 1-Feb-2022::10:26:19.889 NWAGERTH-M-90GM ncs[9839]: devel-c close_usess db request daemon id: 2
+<DEBUG> 1-Feb-2022::10:26:19.890 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 2
+<DEBUG> 1-Feb-2022::10:26:19.890 NWAGERTH-M-90GM ncs[9839]: devel-c close_usess db request daemon id: 1
+<DEBUG> 1-Feb-2022::10:26:19.890 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 1
+<DEBUG> 1-Feb-2022::10:26:19.890 NWAGERTH-M-90GM ncs[9839]: devel-c close_usess db request daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.890 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 0
+<DEBUG> 1-Feb-2022::10:26:19.895 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from econfd <0.361.0>
+<DEBUG> 1-Feb-2022::10:26:19.895 NWAGERTH-M-90GM ncs[9839]: devel-cdb new session on running for econfd <0.361.0>
+<DEBUG> 1-Feb-2022::10:26:19.905 NWAGERTH-M-90GM ncs[9839]: devel-cdb client econfd <0.361.0> closed
+<DEBUG> 1-Feb-2022::10:26:19.905 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from econfd <0.361.0>
+<DEBUG> 1-Feb-2022::10:26:19.905 NWAGERTH-M-90GM ncs[9839]: devel-cdb new session on operational for econfd <0.361.0>
+<DEBUG> 1-Feb-2022::10:26:19.905 NWAGERTH-M-90GM ncs[9839]: devel-cdb client econfd <0.361.0> closed
+<DEBUG> 1-Feb-2022::10:26:19.905 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from econfd <0.601.0>
+<DEBUG> 1-Feb-2022::10:26:19.905 NWAGERTH-M-90GM ncs[9839]: devel-cdb new subscriber session for econfd <0.601.0>
+<INFO> 1-Feb-2022::10:26:19.913 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in phase2:
+	[]
+<DEBUG> 1-Feb-2022::10:26:20.134 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from NCSLOGGER-subscr
+<DEBUG> 1-Feb-2022::10:26:20.145 NWAGERTH-M-90GM ncs[9839]: devel-cdb new subscriber session for NCSLOGGER-subscr
+<DEBUG> 1-Feb-2022::10:26:20.188 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from ncsMain-alCdb
+<INFO> 1-Feb-2022::10:26:20.241 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 1-Feb-2022::10:26:20.241 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<INFO> 1-Feb-2022::10:26:20.241 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 1-Feb-2022::10:26:20.274 NWAGERTH-M-90GM ncs[9839]: devel-snmpa setting snmpEngineID: 80:00:7E:D9:04:74:65:73:74:69:6E:67
+<DEBUG> 1-Feb-2022::10:26:20.304 NWAGERTH-M-90GM ncs[9839]: devel-snmpa no view for view type: write
+<DEBUG> 1-Feb-2022::10:26:20.304 NWAGERTH-M-90GM ncs[9839]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv1(1), sec level: noAuthNoPriv(1)
+<DEBUG> 1-Feb-2022::10:26:20.304 NWAGERTH-M-90GM ncs[9839]: devel-snmpa no view for view type: write
+<DEBUG> 1-Feb-2022::10:26:20.304 NWAGERTH-M-90GM ncs[9839]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv2c(2), sec level: noAuthNoPriv(1)
+<INFO> 1-Feb-2022::10:26:20.339 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.340 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.346 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.346 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.347 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.348 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.349 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.350 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.351 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.352 NWAGERTH-M-90GM ncs[9839]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.352 NWAGERTH-M-90GM ncs[9839]: devel-snmpa snmp agent started
+<DEBUG> 1-Feb-2022::10:26:20.494 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from econfd <0.735.0>
+<DEBUG> 1-Feb-2022::10:26:20.494 NWAGERTH-M-90GM ncs[9839]: devel-cdb new subscriber session for econfd <0.735.0>
+<DEBUG> 1-Feb-2022::10:26:20.524 NWAGERTH-M-90GM ncs[9839]: devel-c New daemon connected (name: ncs-ned-builder-internal-dir-path, daemon id: 6)
+<DEBUG> 1-Feb-2022::10:26:20.524 NWAGERTH-M-90GM ncs[9839]: devel-c New worker connected (daemon id: 6 worker id: 1)
+<DEBUG> 1-Feb-2022::10:26:20.546 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=6 tid=34 datastore=operational context=system automatically purging side-effect queue
+<DEBUG> 1-Feb-2022::10:26:20.546 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=6 tid=34 datastore=operational context=system automatically purging side-effect queue: 0 purged (0.000 s)
+<DEBUG> 1-Feb-2022::10:26:20.560 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=37 tid=38 datastore=operational context=system applying transaction
+<DEBUG> 1-Feb-2022::10:26:20.560 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=37 tid=38 datastore=operational context=system transaction empty
+<DEBUG> 1-Feb-2022::10:26:20.560 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=37 tid=38 datastore=operational context=system applying transaction: empty (0.000 s)
+<DEBUG> 1-Feb-2022::10:26:20.587 NWAGERTH-M-90GM ncs[9839]: devel-sls starting SLS server
+<DEBUG> 1-Feb-2022::10:26:24.103 NWAGERTH-M-90GM ncs[9839]: devel-cdb Delaying CDB journal compaction
+<INFO> 1-Feb-2022::10:26:29.104 NWAGERTH-M-90GM ncs[9839]: devel-cdb Initiating CDB journal compaction
+<INFO> 1-Feb-2022::10:26:29.106 NWAGERTH-M-90GM ncs[9839]: devel-cdb Compacted CDB journal file: 2 ms (339 nodes in memory, disk size 4 bytes -> 4.86 KiB)
+<DEBUG> 1-Feb-2022::10:26:29.550 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from econfd <0.813.0>
+<DEBUG> 1-Feb-2022::10:26:29.550 NWAGERTH-M-90GM ncs[9839]: devel-cdb new subscriber session for econfd <0.813.0>
+<DEBUG> 1-Feb-2022::10:26:29.551 NWAGERTH-M-90GM ncs[9839]: devel-cdb connect from econfd <0.815.0>
+<DEBUG> 1-Feb-2022::10:26:29.551 NWAGERTH-M-90GM ncs[9839]: devel-cdb new subscriber session for econfd <0.815.0>
+<DEBUG> 1-Feb-2022::10:26:29.551 NWAGERTH-M-90GM ncs[9839]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 1-Feb-2022::10:26:30.817 NWAGERTH-M-90GM ncs[9839]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:26:30.821 NWAGERTH-M-90GM ncs[9839]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:26:30.825 NWAGERTH-M-90GM ncs[9839]: devel-sls received global notification: notification_type = notify_enabled, enforce_mode = not_applicable
+<DEBUG> 1-Feb-2022::10:26:34.558 NWAGERTH-M-90GM ncs[9839]: devel-sls received global notification: notification_type = notify_ready, enforce_mode = not_applicable
+<DEBUG> 1-Feb-2022::10:26:34.581 NWAGERTH-M-90GM ncs[9839]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<DEBUG> 1-Feb-2022::10:26:40.286 NWAGERTH-M-90GM ncs[9839]: devel-c new_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::10:26:40.286 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 6
+<DEBUG> 1-Feb-2022::10:26:40.287 NWAGERTH-M-90GM ncs[9839]: devel-c close_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::10:26:40.287 NWAGERTH-M-90GM ncs[9839]: devel-c db reply daemon id: 6
+<DEBUG> 1-Feb-2022::10:27:36.691 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system applying transaction
+<DEBUG> 1-Feb-2022::10:27:36.691 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system entering write-start phase
+<DEBUG> 1-Feb-2022::10:27:36.691 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system subsystem=cdb write-start
+<DEBUG> 1-Feb-2022::10:27:36.692 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system check data kickers
+<DEBUG> 1-Feb-2022::10:27:36.692 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system check data kickers: ok (0.000 s)
+<DEBUG> 1-Feb-2022::10:27:36.692 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system leaving write-start phase (0.000 s)
+<DEBUG> 1-Feb-2022::10:27:36.692 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system entering prepare phase
+<DEBUG> 1-Feb-2022::10:27:36.692 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system subsystem=cdb prepare
+<DEBUG> 1-Feb-2022::10:27:36.693 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system leaving prepare phase (0.000 s)
+<DEBUG> 1-Feb-2022::10:27:36.693 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system entering commit phase
+<DEBUG> 1-Feb-2022::10:27:36.693 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system subsystem=cdb commit
+<DEBUG> 1-Feb-2022::10:27:36.693 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system leaving commit phase (0.000 s)
+<DEBUG> 1-Feb-2022::10:27:36.693 NWAGERTH-M-90GM ncs[9839]: ncs progress usid=42 tid=42 datastore=operational context=system applying transaction: ok (0.001 s)
+<INFO> 1-Feb-2022::10:27:49.775 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in phase0:
+	[]
+<INFO> 1-Feb-2022::10:27:49.775 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in phase1:
+	[]
+<INFO> 1-Feb-2022::10:27:49.775 NWAGERTH-M-90GM ncs[9839]: ncs embedded apps in phase2:
+	[]
+<DEBUG> 1-Feb-2022::10:27:49.785 NWAGERTH-M-90GM ncs[9839]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 1-Feb-2022::10:27:51.052 NWAGERTH-M-90GM ncs[9839]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:27:51.056 NWAGERTH-M-90GM ncs[9839]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:27:54.726 NWAGERTH-M-90GM ncs[9839]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<INFO> 1-Feb-2022::10:41:30.470 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in early_phase0:
+	[]
+<INFO> 1-Feb-2022::10:41:30.808 NWAGERTH-M-90GM ncs[14240]: ncs mmap_schema, started
+<INFO> 1-Feb-2022::10:41:30.820 NWAGERTH-M-90GM ncs[14240]: ncs mmap_schema not supported on platform
+<INFO> 1-Feb-2022::10:41:30.863 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in phase0:
+	[]
+<DEBUG> 1-Feb-2022::10:41:30.925 NWAGERTH-M-90GM ncs[14240]: devel-cdb Using delayed CDB journal compaction (automatic mode)
+<INFO> 1-Feb-2022::10:41:30.935 NWAGERTH-M-90GM ncs[14240]: devel-cdb Loaded schema file: ./ncs-cdb/C.cdb (v5 from ConfD version 7.5)
+<INFO> 1-Feb-2022::10:41:30.969 NWAGERTH-M-90GM ncs[14240]: devel-cdb Loaded oper data from ./ncs-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 1-Feb-2022::10:41:30.969 NWAGERTH-M-90GM ncs[14240]: devel-cdb Loaded snapshot data from ./ncs-cdb/S.cdb (32 bytes data in 0.001s)
+<INFO> 1-Feb-2022::10:41:30.970 NWAGERTH-M-90GM ncs[14240]: devel-cdb Loaded configuration from ./ncs-cdb/A.cdb (4.86 KiB data, 1 transaction in 0.002s)
+<INFO> 1-Feb-2022::10:41:30.973 NWAGERTH-M-90GM ncs[14240]: devel-cdb Initialized with existing snapshot db
+<INFO> 1-Feb-2022::10:41:31.045 NWAGERTH-M-90GM ncs[14240]: ncs encryptedStrings keys provided from config
+<INFO> 1-Feb-2022::10:41:31.045 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in phase1:
+	[]
+<DEBUG> 1-Feb-2022::10:41:31.156 NWAGERTH-M-90GM ncs[14240]: devel-c New daemon connected (name: ncs-internal-device-mgr, daemon id: 0)
+<DEBUG> 1-Feb-2022::10:41:31.156 NWAGERTH-M-90GM ncs[14240]: devel-c New worker connected (daemon id: 0 worker id: 1)
+<DEBUG> 1-Feb-2022::10:41:31.182 NWAGERTH-M-90GM ncs[14240]: devel-c New daemon connected (name: snmp-config-transform, daemon id: 1)
+<DEBUG> 1-Feb-2022::10:41:31.183 NWAGERTH-M-90GM ncs[14240]: devel-c New worker connected (daemon id: 1 worker id: 4)
+<DEBUG> 1-Feb-2022::10:41:31.184 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from snmp-config-transform
+<DEBUG> 1-Feb-2022::10:41:31.185 NWAGERTH-M-90GM ncs[14240]: devel-cdb client snmp-config-transform has pid 14247/6
+<DEBUG> 1-Feb-2022::10:41:31.185 NWAGERTH-M-90GM ncs[14240]: devel-cdb inactive client snmp-config-transform closed
+<DEBUG> 1-Feb-2022::10:41:31.185 NWAGERTH-M-90GM ncs[14240]: devel-c New daemon connected (name: snmp-config-hook, daemon id: 2)
+<DEBUG> 1-Feb-2022::10:41:31.186 NWAGERTH-M-90GM ncs[14240]: devel-c New worker connected (daemon id: 2 worker id: 7)
+<DEBUG> 1-Feb-2022::10:41:31.210 NWAGERTH-M-90GM ncs[14240]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 3)
+<DEBUG> 1-Feb-2022::10:41:31.210 NWAGERTH-M-90GM ncs[14240]: devel-c New worker connected (daemon id: 3 worker id: 1)
+<DEBUG> 1-Feb-2022::10:41:31.217 NWAGERTH-M-90GM ncs[14240]: devel-c New daemon connected (name: ncs-internal-service-mux, daemon id: 4)
+<DEBUG> 1-Feb-2022::10:41:31.217 NWAGERTH-M-90GM ncs[14240]: devel-c New worker connected (daemon id: 4 worker id: 1)
+<DEBUG> 1-Feb-2022::10:41:31.217 NWAGERTH-M-90GM ncs[14240]: devel-c New daemon connected (name: ncs-internal-service-mux-completion, daemon id: 5)
+<DEBUG> 1-Feb-2022::10:41:31.217 NWAGERTH-M-90GM ncs[14240]: devel-c New worker connected (daemon id: 5 worker id: 1)
+<INFO> 1-Feb-2022::10:41:31.237 NWAGERTH-M-90GM ncs[14240]: ncs initializing kickers
+<INFO> 1-Feb-2022::10:41:31.237 NWAGERTH-M-90GM ncs[14240]: ncs initializing kickers: ok (0.000 s)
+<DEBUG> 1-Feb-2022::10:41:31.298 NWAGERTH-M-90GM ncs[14240]: devel-cdb Loaded AAA data from CDB
+<INFO> 1-Feb-2022::10:41:31.365 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in phase1_delayed:
+	[]
+<DEBUG> 1-Feb-2022::10:41:31.384 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from econfd <0.171.0>
+<DEBUG> 1-Feb-2022::10:41:31.384 NWAGERTH-M-90GM ncs[14240]: devel-cdb new session on running for econfd <0.171.0>
+<DEBUG> 1-Feb-2022::10:41:31.394 NWAGERTH-M-90GM ncs[14240]: devel-cdb client econfd <0.171.0> closed
+<DEBUG> 1-Feb-2022::10:41:31.394 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from econfd <0.171.0>
+<DEBUG> 1-Feb-2022::10:41:31.394 NWAGERTH-M-90GM ncs[14240]: devel-cdb new session on operational for econfd <0.171.0>
+<DEBUG> 1-Feb-2022::10:41:31.394 NWAGERTH-M-90GM ncs[14240]: devel-cdb client econfd <0.171.0> closed
+<DEBUG> 1-Feb-2022::10:41:31.394 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from econfd <0.358.0>
+<DEBUG> 1-Feb-2022::10:41:31.394 NWAGERTH-M-90GM ncs[14240]: devel-cdb new subscriber session for econfd <0.358.0>
+<INFO> 1-Feb-2022::10:41:31.419 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in phase2:
+	[]
+<INFO> 1-Feb-2022::10:41:31.687 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 1-Feb-2022::10:41:31.687 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<INFO> 1-Feb-2022::10:41:31.687 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 1-Feb-2022::10:41:31.721 NWAGERTH-M-90GM ncs[14240]: devel-snmpa setting snmpEngineID: 80:00:7E:D9:04:74:65:73:74:69:6E:67
+<DEBUG> 1-Feb-2022::10:41:31.754 NWAGERTH-M-90GM ncs[14240]: devel-snmpa no view for view type: write
+<DEBUG> 1-Feb-2022::10:41:31.754 NWAGERTH-M-90GM ncs[14240]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv1(1), sec level: noAuthNoPriv(1)
+<DEBUG> 1-Feb-2022::10:41:31.754 NWAGERTH-M-90GM ncs[14240]: devel-snmpa no view for view type: write
+<DEBUG> 1-Feb-2022::10:41:31.754 NWAGERTH-M-90GM ncs[14240]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv2c(2), sec level: noAuthNoPriv(1)
+<INFO> 1-Feb-2022::10:41:31.788 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.789 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.795 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.796 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.796 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.797 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.798 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.799 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.800 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.801 NWAGERTH-M-90GM ncs[14240]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.801 NWAGERTH-M-90GM ncs[14240]: devel-snmpa snmp agent started
+<DEBUG> 1-Feb-2022::10:41:31.894 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from NCSLOGGER-subscr
+<DEBUG> 1-Feb-2022::10:41:31.902 NWAGERTH-M-90GM ncs[14240]: devel-cdb new subscriber session for NCSLOGGER-subscr
+<DEBUG> 1-Feb-2022::10:41:31.923 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from ncsMain-alCdb
+<DEBUG> 1-Feb-2022::10:41:32.058 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from econfd <0.492.0>
+<DEBUG> 1-Feb-2022::10:41:32.058 NWAGERTH-M-90GM ncs[14240]: devel-cdb new subscriber session for econfd <0.492.0>
+<DEBUG> 1-Feb-2022::10:41:32.080 NWAGERTH-M-90GM ncs[14240]: devel-c New daemon connected (name: ncs-ned-builder-internal-dir-path, daemon id: 6)
+<DEBUG> 1-Feb-2022::10:41:32.080 NWAGERTH-M-90GM ncs[14240]: devel-c New worker connected (daemon id: 6 worker id: 1)
+<DEBUG> 1-Feb-2022::10:41:32.099 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=6 tid=87 datastore=operational context=system automatically purging side-effect queue
+<DEBUG> 1-Feb-2022::10:41:32.099 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=6 tid=87 datastore=operational context=system automatically purging side-effect queue: 0 purged (0.000 s)
+<DEBUG> 1-Feb-2022::10:41:32.113 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=35 tid=91 datastore=operational context=system applying transaction
+<DEBUG> 1-Feb-2022::10:41:32.113 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=35 tid=91 datastore=operational context=system transaction empty
+<DEBUG> 1-Feb-2022::10:41:32.113 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=35 tid=91 datastore=operational context=system applying transaction: empty (0.000 s)
+<DEBUG> 1-Feb-2022::10:41:32.134 NWAGERTH-M-90GM ncs[14240]: devel-sls starting SLS server
+<DEBUG> 1-Feb-2022::10:41:39.472 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system applying transaction
+<DEBUG> 1-Feb-2022::10:41:39.473 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system entering write-start phase
+<DEBUG> 1-Feb-2022::10:41:39.473 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system subsystem=cdb write-start
+<DEBUG> 1-Feb-2022::10:41:39.473 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system check data kickers
+<DEBUG> 1-Feb-2022::10:41:39.473 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system check data kickers: ok (0.000 s)
+<DEBUG> 1-Feb-2022::10:41:39.473 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system leaving write-start phase (0.000 s)
+<DEBUG> 1-Feb-2022::10:41:39.473 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system entering prepare phase
+<DEBUG> 1-Feb-2022::10:41:39.473 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system subsystem=cdb prepare
+<DEBUG> 1-Feb-2022::10:41:39.474 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system leaving prepare phase (0.000 s)
+<DEBUG> 1-Feb-2022::10:41:39.474 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system entering commit phase
+<DEBUG> 1-Feb-2022::10:41:39.474 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system subsystem=cdb commit
+<DEBUG> 1-Feb-2022::10:41:39.474 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system leaving commit phase (0.000 s)
+<DEBUG> 1-Feb-2022::10:41:39.474 NWAGERTH-M-90GM ncs[14240]: ncs progress usid=40 tid=95 datastore=operational context=system applying transaction: ok (0.001 s)
+<DEBUG> 1-Feb-2022::10:41:39.962 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from econfd <0.590.0>
+<DEBUG> 1-Feb-2022::10:41:39.962 NWAGERTH-M-90GM ncs[14240]: devel-cdb new subscriber session for econfd <0.590.0>
+<DEBUG> 1-Feb-2022::10:41:39.963 NWAGERTH-M-90GM ncs[14240]: devel-cdb connect from econfd <0.592.0>
+<DEBUG> 1-Feb-2022::10:41:39.963 NWAGERTH-M-90GM ncs[14240]: devel-cdb new subscriber session for econfd <0.592.0>
+<DEBUG> 1-Feb-2022::10:41:39.963 NWAGERTH-M-90GM ncs[14240]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 1-Feb-2022::10:41:41.217 NWAGERTH-M-90GM ncs[14240]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:41:41.220 NWAGERTH-M-90GM ncs[14240]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:41:44.992 NWAGERTH-M-90GM ncs[14240]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<INFO> 1-Feb-2022::10:41:45.354 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in phase0:
+	[]
+<INFO> 1-Feb-2022::10:41:45.354 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in phase1:
+	[]
+<INFO> 1-Feb-2022::10:41:45.354 NWAGERTH-M-90GM ncs[14240]: ncs embedded apps in phase2:
+	[]
+<DEBUG> 1-Feb-2022::10:41:45.368 NWAGERTH-M-90GM ncs[14240]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 1-Feb-2022::10:41:46.623 NWAGERTH-M-90GM ncs[14240]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:41:46.627 NWAGERTH-M-90GM ncs[14240]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::10:41:50.003 NWAGERTH-M-90GM ncs[14240]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<DEBUG> 1-Feb-2022::10:41:51.733 NWAGERTH-M-90GM ncs[14240]: devel-c new_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::10:41:51.733 NWAGERTH-M-90GM ncs[14240]: devel-c db reply daemon id: 6
+<DEBUG> 1-Feb-2022::10:41:51.734 NWAGERTH-M-90GM ncs[14240]: devel-c close_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::10:41:51.734 NWAGERTH-M-90GM ncs[14240]: devel-c db reply daemon id: 6
+<DEBUG> 1-Feb-2022::10:42:03.426 NWAGERTH-M-90GM ncs[14240]: devel-c close_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::10:42:03.427 NWAGERTH-M-90GM ncs[14240]: devel-c db reply daemon id: 6

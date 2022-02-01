@@ -1,0 +1,306 @@
+<INFO> 1-Feb-2022::10:26:18.226 NWAGERTH-M-90GM ncs[9839]: - Writing daemon log to /Users/nwagerth/devdays-yang-no-git/logs/ncs.log
+<INFO> 1-Feb-2022::10:26:17.832 NWAGERTH-M-90GM ncs[9839]: - Enabling daemon log
+<INFO> 1-Feb-2022::10:26:17.839 NWAGERTH-M-90GM ncs[9839]: - Starting NCS vsn: 5.5
+<DEBUG> 1-Feb-2022::10:26:17.867 NWAGERTH-M-90GM ncs[9839]: - Loading file confd.fxs
+<DEBUG> 1-Feb-2022::10:26:17.890 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-yang-types.fxs
+<DEBUG> 1-Feb-2022::10:26:17.891 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-inet-types.fxs
+<DEBUG> 1-Feb-2022::10:26:17.892 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-datastores.fxs
+<DEBUG> 1-Feb-2022::10:26:17.904 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-yang-library.fxs
+<DEBUG> 1-Feb-2022::10:26:17.913 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 1-Feb-2022::10:26:17.919 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-netconf.fxs
+<DEBUG> 1-Feb-2022::10:26:17.921 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 1-Feb-2022::10:26:17.922 NWAGERTH-M-90GM ncs[9839]: - Loading file netconf_netmod.fxs
+<DEBUG> 1-Feb-2022::10:26:17.923 NWAGERTH-M-90GM ncs[9839]: - Loading file ietf-restconf.fxs
+<DEBUG> 1-Feb-2022::10:26:17.924 NWAGERTH-M-90GM ncs[9839]: - Loading file tailf-rest-error.fxs
+<DEBUG> 1-Feb-2022::10:26:17.924 NWAGERTH-M-90GM ncs[9839]: - Loading file tailf-rest-query.fxs
+<DEBUG> 1-Feb-2022::10:26:17.925 NWAGERTH-M-90GM ncs[9839]: - Loading file confd_cfg.fxs
+<DEBUG> 1-Feb-2022::10:26:17.945 NWAGERTH-M-90GM ncs[9839]: - Loading file config.fxs
+<DEBUG> 1-Feb-2022::10:26:17.946 NWAGERTH-M-90GM ncs[9839]: - Loading file netconf_notification.fxs
+<DEBUG> 1-Feb-2022::10:26:17.946 NWAGERTH-M-90GM ncs[9839]: - Loading file netconf_actions.fxs
+<DEBUG> 1-Feb-2022::10:26:17.947 NWAGERTH-M-90GM ncs[9839]: - Loading file yang.fxs
+<DEBUG> 1-Feb-2022::10:26:17.947 NWAGERTH-M-90GM ncs[9839]: - Loading file tailf_netconf.fxs
+<DEBUG> 1-Feb-2022::10:26:17.948 NWAGERTH-M-90GM ncs[9839]: - Loading file cli-builtin.fxs
+<DEBUG> 1-Feb-2022::10:26:17.949 NWAGERTH-M-90GM ncs[9839]: - Loading file tailf-ncs-config.fxs
+<DEBUG> 1-Feb-2022::10:26:17.960 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/devdays-yang-no-git/ncs.conf
+<INFO> 1-Feb-2022::10:26:17.975 NWAGERTH-M-90GM ncs[9839]: - Consulting daemon configuration file /Users/nwagerth/devdays-yang-no-git/ncs.conf
+<DEBUG> 1-Feb-2022::10:26:17.996 NWAGERTH-M-90GM ncs[9839]: - Loading file ./packages/devdays/package-meta-data.xml
+<DEBUG> 1-Feb-2022::10:26:18.008 NWAGERTH-M-90GM ncs[9839]: - Copying NCS package from ./packages/devdays to ./state/packages-in-use.new/1
+<DEBUG> 1-Feb-2022::10:26:18.140 NWAGERTH-M-90GM ncs[9839]: - Loading file ./state/packages-in-use/1/devdays/package-meta-data.xml
+<INFO> 1-Feb-2022::10:26:18.199 NWAGERTH-M-90GM ncs[9839]: - Writing audit log to /Users/nwagerth/devdays-yang-no-git/logs/audit.log
+<INFO> 1-Feb-2022::10:26:18.199 NWAGERTH-M-90GM ncs[9839]: - Enabling audit log
+<INFO> 1-Feb-2022::10:26:18.205 NWAGERTH-M-90GM ncs[9839]: - Writing NETCONF log to /Users/nwagerth/devdays-yang-no-git/logs/netconf.log
+<INFO> 1-Feb-2022::10:26:18.205 NWAGERTH-M-90GM ncs[9839]: - Enabling NETCONF log
+<INFO> 1-Feb-2022::10:26:18.209 NWAGERTH-M-90GM ncs[9839]: - Writing SNMP log to /Users/nwagerth/devdays-yang-no-git/logs/snmp.log
+<INFO> 1-Feb-2022::10:26:18.209 NWAGERTH-M-90GM ncs[9839]: - Enabling SNMP log
+<INFO> 1-Feb-2022::10:26:18.215 NWAGERTH-M-90GM ncs[9839]: - Writing developer log to /Users/nwagerth/devdays-yang-no-git/logs/devel.log
+<INFO> 1-Feb-2022::10:26:18.215 NWAGERTH-M-90GM ncs[9839]: - Enabling developer log
+<INFO> 1-Feb-2022::10:26:18.215 NWAGERTH-M-90GM ncs[9839]: - Writing XPath trace log to /Users/nwagerth/devdays-yang-no-git/logs/xpath.trace
+<INFO> 1-Feb-2022::10:26:18.215 NWAGERTH-M-90GM ncs[9839]: - Enabling XPath trace log
+<INFO> 1-Feb-2022::10:26:18.220 NWAGERTH-M-90GM ncs[9839]: - Enabling JSONRPC log
+<INFO> 1-Feb-2022::10:26:18.226 NWAGERTH-M-90GM ncs[9839]: - Enabling WebUI log log
+<INFO> 1-Feb-2022::10:26:18.237 NWAGERTH-M-90GM ncs[9839]: - Enabling error log
+<INFO> 1-Feb-2022::10:26:18.237 NWAGERTH-M-90GM ncs[9839]: - Writing error log to ./logs/ncserr.log
+<INFO> 1-Feb-2022::10:26:18.247 NWAGERTH-M-90GM ncs[9839]: - Daemon logging started
+<DEBUG> 1-Feb-2022::10:26:18.300 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-subscribed-notifications.fxs
+<DEBUG> 1-Feb-2022::10:26:18.302 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-origin.fxs
+<DEBUG> 1-Feb-2022::10:26:18.302 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/lib/ncs/lib/core/confd/priv/ietf-interfaces.fxs
+<DEBUG> 1-Feb-2022::10:26:18.303 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:26:18.303 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:26:18.304 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 1-Feb-2022::10:26:18.305 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-x509-cert-to-name.fxs
+<DEBUG> 1-Feb-2022::10:26:18.305 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-rollback.fxs
+<DEBUG> 1-Feb-2022::10:26:18.306 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-common-query.fxs
+<DEBUG> 1-Feb-2022::10:26:18.306 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-transactions.fxs
+<DEBUG> 1-Feb-2022::10:26:18.306 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-webui.fxs
+<DEBUG> 1-Feb-2022::10:26:18.307 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-progress.fxs
+<DEBUG> 1-Feb-2022::10:26:18.308 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 1-Feb-2022::10:26:18.308 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.309 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.309 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.310 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.310 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 1-Feb-2022::10:26:18.311 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-common.fxs
+<DEBUG> 1-Feb-2022::10:26:18.311 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 1-Feb-2022::10:26:18.312 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/lib/ncs/lib/core/confd/priv/ietf-ip.fxs
+<DEBUG> 1-Feb-2022::10:26:18.312 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.313 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-restconf.fxs
+<DEBUG> 1-Feb-2022::10:26:18.313 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-kicker.fxs
+<DEBUG> 1-Feb-2022::10:26:18.314 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.314 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs.fxs
+<DEBUG> 1-Feb-2022::10:26:18.341 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/ietf-yang-smiv2.fxs
+<DEBUG> 1-Feb-2022::10:26:18.342 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-yang-schema-mount.fxs
+<DEBUG> 1-Feb-2022::10:26:18.342 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-yang-push.fxs
+<DEBUG> 1-Feb-2022::10:26:18.345 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-restconf-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:26:18.345 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/lib/ncs/lib/core/confd/priv/ietf-network-instance.fxs
+<DEBUG> 1-Feb-2022::10:26:18.346 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-notifications.fxs
+<DEBUG> 1-Feb-2022::10:26:18.347 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-nmda.fxs
+<DEBUG> 1-Feb-2022::10:26:18.348 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-partial-lock.fxs
+<DEBUG> 1-Feb-2022::10:26:18.349 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/snmp.fxs
+<DEBUG> 1-Feb-2022::10:26:18.351 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 1-Feb-2022::10:26:18.352 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-xsd-types.fxs
+<DEBUG> 1-Feb-2022::10:26:18.352 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:26:18.353 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:26:18.356 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-acm.fxs
+<DEBUG> 1-Feb-2022::10:26:18.357 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-last-login.fxs
+<DEBUG> 1-Feb-2022::10:26:18.357 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 1-Feb-2022::10:26:18.358 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-acm.fxs
+<DEBUG> 1-Feb-2022::10:26:18.359 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-webui-one.fxs
+<DEBUG> 1-Feb-2022::10:26:18.359 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-tls.fxs
+<DEBUG> 1-Feb-2022::10:26:18.360 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-restconf-ncs.fxs
+<DEBUG> 1-Feb-2022::10:26:18.361 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 1-Feb-2022::10:26:18.361 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-with-rollback-id.fxs
+<DEBUG> 1-Feb-2022::10:26:18.362 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-rollback.fxs
+<DEBUG> 1-Feb-2022::10:26:18.363 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-query.fxs
+<DEBUG> 1-Feb-2022::10:26:18.364 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-ncs.fxs
+<DEBUG> 1-Feb-2022::10:26:18.367 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-inactive.fxs
+<DEBUG> 1-Feb-2022::10:26:18.367 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-extensions.fxs
+<DEBUG> 1-Feb-2022::10:26:18.368 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-netconf-ned-builder.fxs
+<DEBUG> 1-Feb-2022::10:26:18.370 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-devices-yang-library.fxs
+<DEBUG> 1-Feb-2022::10:26:18.371 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 1-Feb-2022::10:26:18.373 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 1-Feb-2022::10:26:18.374 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-scheduler.fxs
+<DEBUG> 1-Feb-2022::10:26:18.376 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-progress.fxs
+<DEBUG> 1-Feb-2022::10:26:18.377 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-kicker-extension.fxs
+<DEBUG> 1-Feb-2022::10:26:18.378 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 1-Feb-2022::10:26:18.378 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 1-Feb-2022::10:26:18.381 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.382 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.382 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.383 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 1-Feb-2022::10:26:18.383 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.384 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.385 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.386 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.387 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 1-Feb-2022::10:26:18.387 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 1-Feb-2022::10:26:18.388 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-aaa.fxs
+<DEBUG> 1-Feb-2022::10:26:18.389 NWAGERTH-M-90GM ncs[9839]: - Loading file ./state/packages-in-use/1/devdays/load-dir/devdays.fxs
+<DEBUG> 1-Feb-2022::10:26:18.390 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-rfc5277-device.fxs
+<DEBUG> 1-Feb-2022::10:26:18.468 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ncs.ccl
+<DEBUG> 1-Feb-2022::10:26:18.477 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/smart-license.ccl
+<DEBUG> 1-Feb-2022::10:26:18.486 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/scripts/command/device_save.sh
+<INFO> 1-Feb-2022::10:26:18.570 NWAGERTH-M-90GM ncs[9839]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<INFO> 1-Feb-2022::10:26:18.913 NWAGERTH-M-90GM ncs[9839]: - CDB load: processing file: /Users/nwagerth/nso-5.5/var/ncs/cdb/aaa_init.xml
+<INFO> 1-Feb-2022::10:26:18.994 NWAGERTH-M-90GM ncs[9839]: - CDB load: processing file: /Users/nwagerth/nso-5.5/var/ncs/cdb/ncs_defaults.xml
+<INFO> 1-Feb-2022::10:26:19.008 NWAGERTH-M-90GM ncs[9839]: - CDB load: processing file: /Users/nwagerth/nso-5.5/var/ncs/cdb/sls_defaults.xml
+<INFO> 1-Feb-2022::10:26:19.008 NWAGERTH-M-90GM ncs[9839]: - CDB load: processing file: /Users/nwagerth/nso-5.5/var/ncs/cdb/tailf-ncs-alarms_init.xml
+<INFO> 1-Feb-2022::10:26:19.243 NWAGERTH-M-90GM ncs[9839]: - Starting the NCS Java VM
+<DEBUG> 1-Feb-2022::10:26:19.652 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/snmp_init.xml
+<INFO> 1-Feb-2022::10:26:19.937 NWAGERTH-M-90GM ncs[9839]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 1-Feb-2022::10:26:20.199 NWAGERTH-M-90GM ncs[9839]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 1-Feb-2022::10:26:20.241 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 1-Feb-2022::10:26:20.241 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 1-Feb-2022::10:26:20.241 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 1-Feb-2022::10:26:20.321 NWAGERTH-M-90GM ncs[9839]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 1-Feb-2022::10:26:20.339 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.340 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.345 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.346 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.347 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.348 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.349 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.350 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.351 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 1-Feb-2022::10:26:20.352 NWAGERTH-M-90GM ncs[9839]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 1-Feb-2022::10:26:20.389 NWAGERTH-M-90GM ncs[9839]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 1-Feb-2022::10:26:20.681 NWAGERTH-M-90GM ncs[9839]: - Starting the NCS Smart Licensing Java VM
+<INFO> 1-Feb-2022::10:26:20.701 NWAGERTH-M-90GM ncs[9839]: - NCS started vsn: 5.5
+<INFO> 1-Feb-2022::10:26:30.825 NWAGERTH-M-90GM ncs[9839]: - Smart Licensing Global Notification: type = "notifyEnabled", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 1-Feb-2022::10:26:34.558 NWAGERTH-M-90GM ncs[9839]: - Smart Licensing Global Notification: type = "notifyReady", agentID = "sa1", enforceMode = "notApplicable", allowRestricted = false, failReasonCode = "success", failMessage = "Successful."
+<INFO> 1-Feb-2022::10:26:34.589 NWAGERTH-M-90GM ncs[9839]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Feb 1 10:26:30 2022", version = "1.0", requestedDate = "Feb 1 10:26:29 2022", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "May 2 11:26:29 2022", requestedCount = 1
+<DEBUG> 1-Feb-2022::10:27:49.540 NWAGERTH-M-90GM ncs[9839]: - Loading file ./packages/devdays/package-meta-data.xml
+<DEBUG> 1-Feb-2022::10:27:49.545 NWAGERTH-M-90GM ncs[9839]: - Loading file ./packages/devdays/package-meta-data.xml
+<DEBUG> 1-Feb-2022::10:27:49.551 NWAGERTH-M-90GM ncs[9839]: - Copying NCS package from ./packages/devdays to ./state/packages-in-use.new/1
+<DEBUG> 1-Feb-2022::10:27:49.682 NWAGERTH-M-90GM ncs[9839]: - Loading file ./state/packages-in-use/1/devdays/package-meta-data.xml
+<DEBUG> 1-Feb-2022::10:27:49.684 NWAGERTH-M-90GM ncs[9839]: - Loading file /Users/nwagerth/nso-5.5/scripts/command/device_save.sh
+<INFO> 1-Feb-2022::10:27:54.727 NWAGERTH-M-90GM ncs[9839]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Feb 1 10:27:51 2022", version = "1.0", requestedDate = "Feb 1 10:27:49 2022", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "May 2 11:26:49 2022", requestedCount = 1
+<INFO> 1-Feb-2022::10:41:30.397 NWAGERTH-M-90GM ncs[14240]: - Writing daemon log to /Users/nwagerth/devdays-yang/logs/ncs.log
+<INFO> 1-Feb-2022::10:41:30.179 NWAGERTH-M-90GM ncs[14240]: - Enabling daemon log
+<INFO> 1-Feb-2022::10:41:30.184 NWAGERTH-M-90GM ncs[14240]: - Starting NCS vsn: 5.5
+<DEBUG> 1-Feb-2022::10:41:30.211 NWAGERTH-M-90GM ncs[14240]: - Loading file confd.fxs
+<DEBUG> 1-Feb-2022::10:41:30.232 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-yang-types.fxs
+<DEBUG> 1-Feb-2022::10:41:30.233 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-inet-types.fxs
+<DEBUG> 1-Feb-2022::10:41:30.234 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-datastores.fxs
+<DEBUG> 1-Feb-2022::10:41:30.245 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-yang-library.fxs
+<DEBUG> 1-Feb-2022::10:41:30.255 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-yang-patch.fxs
+<DEBUG> 1-Feb-2022::10:41:30.263 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-netconf.fxs
+<DEBUG> 1-Feb-2022::10:41:30.265 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-netconf-with-defaults.fxs
+<DEBUG> 1-Feb-2022::10:41:30.265 NWAGERTH-M-90GM ncs[14240]: - Loading file netconf_netmod.fxs
+<DEBUG> 1-Feb-2022::10:41:30.266 NWAGERTH-M-90GM ncs[14240]: - Loading file ietf-restconf.fxs
+<DEBUG> 1-Feb-2022::10:41:30.267 NWAGERTH-M-90GM ncs[14240]: - Loading file tailf-rest-error.fxs
+<DEBUG> 1-Feb-2022::10:41:30.267 NWAGERTH-M-90GM ncs[14240]: - Loading file tailf-rest-query.fxs
+<DEBUG> 1-Feb-2022::10:41:30.268 NWAGERTH-M-90GM ncs[14240]: - Loading file confd_cfg.fxs
+<DEBUG> 1-Feb-2022::10:41:30.287 NWAGERTH-M-90GM ncs[14240]: - Loading file config.fxs
+<DEBUG> 1-Feb-2022::10:41:30.287 NWAGERTH-M-90GM ncs[14240]: - Loading file netconf_notification.fxs
+<DEBUG> 1-Feb-2022::10:41:30.288 NWAGERTH-M-90GM ncs[14240]: - Loading file netconf_actions.fxs
+<DEBUG> 1-Feb-2022::10:41:30.288 NWAGERTH-M-90GM ncs[14240]: - Loading file yang.fxs
+<DEBUG> 1-Feb-2022::10:41:30.289 NWAGERTH-M-90GM ncs[14240]: - Loading file tailf_netconf.fxs
+<DEBUG> 1-Feb-2022::10:41:30.289 NWAGERTH-M-90GM ncs[14240]: - Loading file cli-builtin.fxs
+<DEBUG> 1-Feb-2022::10:41:30.290 NWAGERTH-M-90GM ncs[14240]: - Loading file tailf-ncs-config.fxs
+<DEBUG> 1-Feb-2022::10:41:30.299 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/devdays-yang/ncs.conf
+<INFO> 1-Feb-2022::10:41:30.313 NWAGERTH-M-90GM ncs[14240]: - Consulting daemon configuration file /Users/nwagerth/devdays-yang/ncs.conf
+<DEBUG> 1-Feb-2022::10:41:30.333 NWAGERTH-M-90GM ncs[14240]: - Loading file ./state/packages-in-use/1/devdays/package-meta-data.xml
+<INFO> 1-Feb-2022::10:41:30.379 NWAGERTH-M-90GM ncs[14240]: - Writing audit log to /Users/nwagerth/devdays-yang/logs/audit.log
+<INFO> 1-Feb-2022::10:41:30.379 NWAGERTH-M-90GM ncs[14240]: - Enabling audit log
+<INFO> 1-Feb-2022::10:41:30.383 NWAGERTH-M-90GM ncs[14240]: - Writing NETCONF log to /Users/nwagerth/devdays-yang/logs/netconf.log
+<INFO> 1-Feb-2022::10:41:30.383 NWAGERTH-M-90GM ncs[14240]: - Enabling NETCONF log
+<INFO> 1-Feb-2022::10:41:30.386 NWAGERTH-M-90GM ncs[14240]: - Writing SNMP log to /Users/nwagerth/devdays-yang/logs/snmp.log
+<INFO> 1-Feb-2022::10:41:30.386 NWAGERTH-M-90GM ncs[14240]: - Enabling SNMP log
+<INFO> 1-Feb-2022::10:41:30.389 NWAGERTH-M-90GM ncs[14240]: - Writing developer log to /Users/nwagerth/devdays-yang/logs/devel.log
+<INFO> 1-Feb-2022::10:41:30.389 NWAGERTH-M-90GM ncs[14240]: - Enabling developer log
+<INFO> 1-Feb-2022::10:41:30.390 NWAGERTH-M-90GM ncs[14240]: - Writing XPath trace log to /Users/nwagerth/devdays-yang/logs/xpath.trace
+<INFO> 1-Feb-2022::10:41:30.390 NWAGERTH-M-90GM ncs[14240]: - Enabling XPath trace log
+<INFO> 1-Feb-2022::10:41:30.393 NWAGERTH-M-90GM ncs[14240]: - Enabling JSONRPC log
+<INFO> 1-Feb-2022::10:41:30.396 NWAGERTH-M-90GM ncs[14240]: - Enabling WebUI log log
+<INFO> 1-Feb-2022::10:41:30.405 NWAGERTH-M-90GM ncs[14240]: - Enabling error log
+<INFO> 1-Feb-2022::10:41:30.405 NWAGERTH-M-90GM ncs[14240]: - Writing error log to ./logs/ncserr.log
+<INFO> 1-Feb-2022::10:41:30.435 NWAGERTH-M-90GM ncs[14240]: - Daemon logging started
+<DEBUG> 1-Feb-2022::10:41:30.488 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-subscribed-notifications.fxs
+<DEBUG> 1-Feb-2022::10:41:30.489 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-origin.fxs
+<DEBUG> 1-Feb-2022::10:41:30.490 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/lib/ncs/lib/core/confd/priv/ietf-interfaces.fxs
+<DEBUG> 1-Feb-2022::10:41:30.490 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:41:30.490 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:41:30.491 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 1-Feb-2022::10:41:30.492 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-x509-cert-to-name.fxs
+<DEBUG> 1-Feb-2022::10:41:30.492 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-rollback.fxs
+<DEBUG> 1-Feb-2022::10:41:30.493 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-common-query.fxs
+<DEBUG> 1-Feb-2022::10:41:30.493 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-transactions.fxs
+<DEBUG> 1-Feb-2022::10:41:30.494 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-webui.fxs
+<DEBUG> 1-Feb-2022::10:41:30.494 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-progress.fxs
+<DEBUG> 1-Feb-2022::10:41:30.495 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 1-Feb-2022::10:41:30.496 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.496 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.497 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.497 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.498 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 1-Feb-2022::10:41:30.498 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-common.fxs
+<DEBUG> 1-Feb-2022::10:41:30.499 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 1-Feb-2022::10:41:30.499 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/lib/ncs/lib/core/confd/priv/ietf-ip.fxs
+<DEBUG> 1-Feb-2022::10:41:30.499 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.500 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-restconf.fxs
+<DEBUG> 1-Feb-2022::10:41:30.500 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-kicker.fxs
+<DEBUG> 1-Feb-2022::10:41:30.501 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.502 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs.fxs
+<DEBUG> 1-Feb-2022::10:41:30.529 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/ietf-yang-smiv2.fxs
+<DEBUG> 1-Feb-2022::10:41:30.529 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-yang-schema-mount.fxs
+<DEBUG> 1-Feb-2022::10:41:30.530 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-yang-push.fxs
+<DEBUG> 1-Feb-2022::10:41:30.532 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-restconf-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:41:30.533 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/lib/ncs/lib/core/confd/priv/ietf-network-instance.fxs
+<DEBUG> 1-Feb-2022::10:41:30.533 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-notifications.fxs
+<DEBUG> 1-Feb-2022::10:41:30.534 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-nmda.fxs
+<DEBUG> 1-Feb-2022::10:41:30.535 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ietf-netconf-partial-lock.fxs
+<DEBUG> 1-Feb-2022::10:41:30.536 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/snmp.fxs
+<DEBUG> 1-Feb-2022::10:41:30.538 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 1-Feb-2022::10:41:30.539 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-xsd-types.fxs
+<DEBUG> 1-Feb-2022::10:41:30.539 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:41:30.540 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 1-Feb-2022::10:41:30.543 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-acm.fxs
+<DEBUG> 1-Feb-2022::10:41:30.543 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-last-login.fxs
+<DEBUG> 1-Feb-2022::10:41:30.544 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 1-Feb-2022::10:41:30.544 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-acm.fxs
+<DEBUG> 1-Feb-2022::10:41:30.545 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-webui-one.fxs
+<DEBUG> 1-Feb-2022::10:41:30.546 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-tls.fxs
+<DEBUG> 1-Feb-2022::10:41:30.546 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-restconf-ncs.fxs
+<DEBUG> 1-Feb-2022::10:41:30.547 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-with-transaction-id.fxs
+<DEBUG> 1-Feb-2022::10:41:30.547 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-with-rollback-id.fxs
+<DEBUG> 1-Feb-2022::10:41:30.548 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-rollback.fxs
+<DEBUG> 1-Feb-2022::10:41:30.549 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-query.fxs
+<DEBUG> 1-Feb-2022::10:41:30.549 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-ncs.fxs
+<DEBUG> 1-Feb-2022::10:41:30.552 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-inactive.fxs
+<DEBUG> 1-Feb-2022::10:41:30.552 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-netconf-extensions.fxs
+<DEBUG> 1-Feb-2022::10:41:30.553 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-netconf-ned-builder.fxs
+<DEBUG> 1-Feb-2022::10:41:30.555 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-devices-yang-library.fxs
+<DEBUG> 1-Feb-2022::10:41:30.556 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 1-Feb-2022::10:41:30.557 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 1-Feb-2022::10:41:30.558 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-scheduler.fxs
+<DEBUG> 1-Feb-2022::10:41:30.559 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-progress.fxs
+<DEBUG> 1-Feb-2022::10:41:30.560 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-kicker-extension.fxs
+<DEBUG> 1-Feb-2022::10:41:30.560 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 1-Feb-2022::10:41:30.561 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 1-Feb-2022::10:41:30.563 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.563 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.564 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.564 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 1-Feb-2022::10:41:30.565 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.565 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.566 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.567 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.568 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 1-Feb-2022::10:41:30.568 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 1-Feb-2022::10:41:30.569 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-aaa.fxs
+<DEBUG> 1-Feb-2022::10:41:30.570 NWAGERTH-M-90GM ncs[14240]: - Loading file ./state/packages-in-use/1/devdays/load-dir/devdays.fxs
+<DEBUG> 1-Feb-2022::10:41:30.570 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/tailf-ncs-rfc5277-device.fxs
+<DEBUG> 1-Feb-2022::10:41:30.641 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/ncs.ccl
+<DEBUG> 1-Feb-2022::10:41:30.649 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/etc/ncs/smart-license.ccl
+<DEBUG> 1-Feb-2022::10:41:30.659 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/scripts/command/device_save.sh
+<INFO> 1-Feb-2022::10:41:30.753 NWAGERTH-M-90GM ncs[14240]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<INFO> 1-Feb-2022::10:41:31.175 NWAGERTH-M-90GM ncs[14240]: - Starting the NCS Java VM
+<NOTICE> 1-Feb-2022::10:41:31.267 NWAGERTH-M-90GM ncs[14240]: - The notification replay store log ''ncs-events'' has been repaired
+<NOTICE> 1-Feb-2022::10:41:31.271 NWAGERTH-M-90GM ncs[14240]: - The notification replay store log ''kicker-events'' has been repaired
+<NOTICE> 1-Feb-2022::10:41:31.276 NWAGERTH-M-90GM ncs[14240]: - The notification replay store log ''device-notifications'' has been repaired
+<INFO> 1-Feb-2022::10:41:31.438 NWAGERTH-M-90GM ncs[14240]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 1-Feb-2022::10:41:31.642 NWAGERTH-M-90GM ncs[14240]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 1-Feb-2022::10:41:31.687 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 1-Feb-2022::10:41:31.687 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 1-Feb-2022::10:41:31.687 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 1-Feb-2022::10:41:31.765 NWAGERTH-M-90GM ncs[14240]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 1-Feb-2022::10:41:31.788 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.789 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.795 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.795 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.796 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.797 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.798 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.799 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.800 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 1-Feb-2022::10:41:31.801 NWAGERTH-M-90GM ncs[14240]: - Loading MIB: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 1-Feb-2022::10:41:31.846 NWAGERTH-M-90GM ncs[14240]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 1-Feb-2022::10:41:32.229 NWAGERTH-M-90GM ncs[14240]: - Starting the NCS Smart Licensing Java VM
+<INFO> 1-Feb-2022::10:41:32.271 NWAGERTH-M-90GM ncs[14240]: - NCS started vsn: 5.5
+<INFO> 1-Feb-2022::10:41:44.999 NWAGERTH-M-90GM ncs[14240]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Feb 1 10:41:41 2022", version = "1.0", requestedDate = "Feb 1 10:41:39 2022", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "May 2 11:37:39 2022", requestedCount = 1
+<DEBUG> 1-Feb-2022::10:41:45.253 NWAGERTH-M-90GM ncs[14240]: - Loading file ./packages/devdays/package-meta-data.xml
+<DEBUG> 1-Feb-2022::10:41:45.257 NWAGERTH-M-90GM ncs[14240]: - Loading file ./packages/devdays/package-meta-data.xml
+<DEBUG> 1-Feb-2022::10:41:45.263 NWAGERTH-M-90GM ncs[14240]: - Copying NCS package from ./packages/devdays to ./state/packages-in-use.new/1
+<DEBUG> 1-Feb-2022::10:41:45.268 NWAGERTH-M-90GM ncs[14240]: - Loading file ./state/packages-in-use/1/devdays/package-meta-data.xml
+<DEBUG> 1-Feb-2022::10:41:45.270 NWAGERTH-M-90GM ncs[14240]: - Loading file /Users/nwagerth/nso-5.5/scripts/command/device_save.sh
+<INFO> 1-Feb-2022::10:41:50.003 NWAGERTH-M-90GM ncs[14240]: - Smart Licensing Entitlement Notification: type = "notifyEnforcementMode", agentID = "sa1", notificationTime = "Feb 1 10:41:46 2022", version = "1.0", requestedDate = "Feb 1 10:41:45 2022", tag = "regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c", enforceMode = "eval", daysLeft = 90, expiryDate = "May 2 11:37:45 2022", requestedCount = 1

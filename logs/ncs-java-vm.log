@@ -1,0 +1,48 @@
+Starting java-vm with options:
+' -classpath :/Users/nwagerth/nso-5.5/java/jar/* -Dhost=127.0.0.1 -Dport=4569 -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Dfile.encoding=UTF-8 -Dorg.apache.logging.log4j.simplelog.StatusLogger.level=OFF'
+NCS JVM STARTING
+NcsLogger applying Default configuration!
+<INFO> 01-Feb-2022::10:26:19.999 NcsMain JVM-Launcher: - CONNECTED TO to NCS --> Socket[addr=/127.0.0.1,port=4569,localport=62434]
+<INFO> 01-Feb-2022::10:26:20.012 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:26:20.017 NcsMain JVM-Launcher: -  <= GOT INIT_JVM
+JMXURL : service:jmx:rmi://127.0.0.1:9901/jndi/rmi://127.0.0.1:9902/ncs
+<INFO> 01-Feb-2022::10:26:20.359 NcsMain JVM-Launcher: - ALARM SERVICE STARTED
+<INFO> 01-Feb-2022::10:26:20.359 NcsMain JVM-Launcher: - DONE COMMAND --> INIT_JVM
+<INFO> 01-Feb-2022::10:26:20.360 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:26:20.481 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 01-Feb-2022::10:26:20.481 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 01-Feb-2022::10:26:20.482 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 01-Feb-2022::10:26:20.482 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 01-Feb-2022::10:26:20.482 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:27:49.775 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 01-Feb-2022::10:27:49.776 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 01-Feb-2022::10:27:49.776 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:27:49.779 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 01-Feb-2022::10:27:49.780 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 01-Feb-2022::10:27:49.780 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 01-Feb-2022::10:27:49.780 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 01-Feb-2022::10:27:49.780 NcsMain JVM-Launcher: - READ SOCKET =>
+Starting java-vm with options:
+' -classpath :/Users/nwagerth/nso-5.5/java/jar/* -Dhost=127.0.0.1 -Dport=4569 -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Dfile.encoding=UTF-8 -Dorg.apache.logging.log4j.simplelog.StatusLogger.level=OFF'
+NCS JVM STARTING
+NcsLogger applying Default configuration!
+<INFO> 01-Feb-2022::10:41:31.765 NcsMain JVM-Launcher: - CONNECTED TO to NCS --> Socket[addr=/127.0.0.1,port=4569,localport=63258]
+<INFO> 01-Feb-2022::10:41:31.778 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:41:31.783 NcsMain JVM-Launcher: -  <= GOT INIT_JVM
+JMXURL : service:jmx:rmi://127.0.0.1:9901/jndi/rmi://127.0.0.1:9902/ncs
+<INFO> 01-Feb-2022::10:41:32.043 NcsMain JVM-Launcher: - ALARM SERVICE STARTED
+<INFO> 01-Feb-2022::10:41:32.044 NcsMain JVM-Launcher: - DONE COMMAND --> INIT_JVM
+<INFO> 01-Feb-2022::10:41:32.044 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:41:32.048 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 01-Feb-2022::10:41:32.048 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 01-Feb-2022::10:41:32.048 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 01-Feb-2022::10:41:32.049 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 01-Feb-2022::10:41:32.049 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:41:45.360 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 01-Feb-2022::10:41:45.360 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 01-Feb-2022::10:41:45.361 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 01-Feb-2022::10:41:45.365 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 01-Feb-2022::10:41:45.365 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 01-Feb-2022::10:41:45.365 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 01-Feb-2022::10:41:45.365 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 01-Feb-2022::10:41:45.366 NcsMain JVM-Launcher: - READ SOCKET =>
