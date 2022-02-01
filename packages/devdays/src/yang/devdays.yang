@@ -7,7 +7,7 @@ module devdays {
   prefix devdays;
 
  revision 2022-02-01 {
-   description "Starting all over";
+   description "Starting all over" + "added actions input and output from attendee";
  } 
 
   identity format-idty{
@@ -76,9 +76,11 @@ module devdays {
       leaf event-name {           //" e.g. Automation Developer Days 2020";
         type string;
       }
-        leaf event-id {           //" GSMM event id";
-        type uint32 ;
-          default 1001;
+        leaf event-id {           //" GSMM event id"; 102531
+          type string{
+            length 6;
+            pattern '[0-9]{6}';
+            }
       }  
       leaf start-date {           //add format and restriction
         type string;
@@ -87,6 +89,14 @@ module devdays {
         type uint32 {
           range 1..5;
           } 
+      }
+
+      leaf event-type {
+        type enumeration {
+          enum "in-person";
+          enum "hybrid";
+          enum "virtual";
+        }
       }
       
     }
@@ -104,12 +114,19 @@ module devdays {
             path /devdays-events/devdays-event/event-name;
           }
         }
+        leaf venue-id {            //unique id, 102531
+            type string{
+            length 2;
+            pattern '[0-9]{2}';
+            }
+          }
         
         list format {
           key venue-name;     
-          leaf venue-name{            //unique id, e.g 001
+          leaf venue-name{            
             type string;
           }
+          
           leaf format-id {
             mandatory true;
             type identityref {
@@ -117,7 +134,9 @@ module devdays {
             }
           }
           leaf ticket-price {
-            type uint32;
+            type uint32 {
+            range 0..800;
+            }
           }
 
           container number-of-seats {
@@ -146,19 +165,19 @@ module devdays {
           mandatory true;
           type string;  
         }
-        // leaf last-name {
-        //   mandatory true;
-        //   type string;
-        // }
-        // leaf company {
-        //   mandatory true;
-        //   type string;
-        // }
-        // leaf work-title {
-        //   mandatory true;
-        //   type string;
-        // }
-        leaf email {
+        leaf last-name {
+          mandatory true;
+          type string;
+        }
+        leaf company {
+          mandatory true;
+          type string;
+        }
+        leaf work-title {
+          mandatory true;
+          type string;
+        }
+        leaf email {          //restrict gmail.com and hotmail.com
           mandatory true;
           type string;
         } 
@@ -199,53 +218,53 @@ module devdays {
       }
     }
 
-  // container devdays-speakers {
-  //   description "all registered speakers";
-  //   list speaker {
-  //     key session-title;
+  container devdays-speakers {
+    description "all registered speakers";
+    list speaker {
+      key session-title;
 
-  //     leaf speaker-approved {
-  //       type boolean;
-  //     }
-  //     leaf first-name {
-  //       type leafref {
-  //         path /devdays-attendees/devdays-attendee/first-name;
-  //       }
-  //     }
-  //     leaf last-name {
-  //       type leafref {
-  //         path /devdays-attendees/devdays-attendee/last-name;
-  //       }
-  //     }
-  //     leaf work-title {
-  //       type leafref {
-  //         path /devdays-attendees/devdays-attendee/work-title;
-  //       }
-  //     }
-  //     leaf email {
-  //       type leafref {
-  //         path /devdays-attendees/devdays-attendee/email;
-  //       }
-  //     }
+      leaf speaker-approved {
+        type boolean;
+      }
+      leaf first-name {
+        type leafref {
+          path /devdays-attendees/devdays-attendee/first-name;
+        }
+      }
+      leaf last-name {
+        type leafref {
+          path /devdays-attendees/devdays-attendee/last-name;
+        }
+      }
+      leaf work-title {
+        type leafref {
+          path /devdays-attendees/devdays-attendee/work-title;
+        }
+      }
+      leaf email {
+        type leafref {
+          path /devdays-attendees/devdays-attendee/email;
+        }
+      }
 
-  //     leaf session-title {
-  //       type string;
-  //     }
-  //     leaf segment {
-  //       type enumeration{
-  //         enum "true-stories";
-  //         enum "nso-essentials";
-  //       }
-  //     }
-  //     leaf subcategories {
-  //       type enumeration{
-  //         enum "scaling-out";
-  //         enum "performance";
+      leaf session-title {
+        type string;
+      }
+      leaf segment {
+        type enumeration{
+          enum "true-stories";
+          enum "nso-essentials";
+        }
+      }
+      leaf subcategories {
+        type enumeration{
+          enum "scaling-out";
+          enum "performance";
 
-  //       }
-  //     }
+        }
+      }
      
 
-  //   }
-  // }
+    }
+  }
 }
