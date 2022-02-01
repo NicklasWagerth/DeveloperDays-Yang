@@ -20,8 +20,7 @@ module devdays {
         type enumeration {
             enum "in-person";
             enum "virtual";
-            enum "hybrid";
-            enum "maximus";
+            enum "kalle";
         }
     }   
 
