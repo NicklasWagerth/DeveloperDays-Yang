@@ -41,27 +41,31 @@ module devdays {
     base virtual;
   }
 
+ grouping event-venue-format-ref{
+  leaf event-name {
+        type leafref {
+          path /devdays-events/devdays-event/event-name;
+        }
+      }
+      leaf venue-name {
+        type leafref {
+          path /venues/venue/format/venue-name;
+        }
+      }
+      leaf format {
+        type leafref {
+          path /venues/venue/format/format-id;
+        }
+      }
+ }
+
   notification ticket-delivery {
     leaf attendee {
       type leafref {
         path /devdays-attendees/devdays-attendee/first-name;
       }
     }
-    leaf event-name {
-      type leafref {
-        path /devdays-events/devdays-event/event-name;
-      }
-    }
-    leaf venue-name {
-      type leafref {
-        path /venues/venue/format/venue-name;
-      }
-    }
-    leaf format {
-      type leafref {
-        path /venues/venue/format/format-id;
-      }
-    }
+    uses event-venue-format-ref;
   }
  
   container devdays-events {      
@@ -145,27 +149,18 @@ module devdays {
           mandatory true;
           type string;
         } 
+        // list event-history {
+        //   config false;
+        //   key "event-name venue-name format";
+        //   uses 
+        // }
         
         } 
       action checkout {         //inside list devday-attendee
         input {
-          leaf event-name {
-            type leafref {
-              path /devdays-events/devdays-event/event-name;
-            }
-          }
-          leaf venue{
-            type leafref {
-              path /venues/venue/venue-name;
-            }
-          }
-          leaf format {
-            type leafref {
-              path /venues/venue/format/format-id;
-            }
+          uses event-venue-format-ref;
           }
 
-        }
         output {
           choice outcome {
             case success {
