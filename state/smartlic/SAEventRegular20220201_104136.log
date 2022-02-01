@@ -1,8 +1,0 @@
-2022-02-01 10:41:36.744 CET SAEVT_INIT_START version="3.0.13" 
-2022-02-01 10:41:39.886 CET SAEVT_INIT_COMPLETE
-2022-02-01 10:41:39.970 CET SAEVT_LICENSE_USAGE entitlementTag="regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c" count="1" type="total" 
-2022-02-01 10:41:39.972 CET SAEVT_TAG_EVAL entitlementTag="regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c" count="1" 
-2022-02-01 10:41:39.972 CET SAEVT_STATE_EVAL
-2022-02-01 10:41:45.372 CET SAEVT_LICENSE_USAGE entitlementTag="regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c" count="1" type="total" 
-2022-02-01 10:41:45.372 CET SAEVT_TAG_EVAL entitlementTag="regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c" count="1" 
-2022-02-01 10:41:45.372 CET SAEVT_STATE_EVAL
