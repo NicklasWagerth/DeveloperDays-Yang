@@ -13,32 +13,32 @@ module devdays {
   identity format-idty{
     description "Root identity for all event formats";
   }
-  identity live {
+  identity live-idty {
     base format-idty;
   }
-   identity hybrid {
+   identity hybrid-idty {
     base format-idty;
   }
-   identity virtual {
+   identity virtual-idty {
     base format-idty;
   }
   identity live-main-event {
-    base live;
+    base live-idty;
   }
   identity live-event {
-    base live;
+    base live-idty;
   }
   identity live-satellite {
-    base live;
+    base live-idty;
   }
   identity hybrid-main-event {
-    base hybrid;
+    base hybrid-idty;
   }
   identity hybrid-event {
-    base hybrid;
+    base hybrid-idty;
   }
   identity virtual-remote {
-    base virtual;
+    base virtual-idty;
   }
 
  grouping event-venue-format-ref{
@@ -119,8 +119,21 @@ module devdays {
           leaf ticket-price {
             type uint32;
           }
+
+          container number-of-seats {
+            when 'not(derived-from(../format-id,  "devdays:virtual-idty"))';
+            config false;
+            leaf seats-left{
+              type uint32;
+            }
+            leaf reserved {
+              type uint32;
+            }
+            leaf available {
+              type uint32;
+            }
+          }
         }
-        
       }
   }
    
