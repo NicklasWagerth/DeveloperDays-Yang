@@ -23,7 +23,7 @@ module devdays {
         }
     }   
 
-  container events {      
+  container devdays {      
     description "all you need to know about the event";
 
     list devdays-event {
