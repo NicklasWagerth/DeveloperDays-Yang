@@ -21,6 +21,7 @@ module devdays {
             enum "in-person";
             enum "virtual";
             enum "hybrid";
+            enum "maximus";
         }
     }   
 
