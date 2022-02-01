@@ -29,3 +29,6 @@ state/smartlic/state.yml
 state/smartlic/udi.sn
 storedstate
 packages/devdays/.DS_Store
+logs/rollback10002
+logs/rollback10003
+logs/rollback10004

@@ -9,41 +9,74 @@ module devdays {
  revision 2022-02-01 {
    description "Starting all over";
  } 
-  typedef event-format-type {
-        type enumeration {
-            enum "in-person";
-            enum "virtual";
-            enum "hybrid";
-        }
-    }
-    typedef event-access-type {
-        type enumeration {
-            enum "in-person";
-            enum "virtual";
-            enum "pelle";
-            enum "nisse";
-        }
-    }   
 
-  container devdays {      
+  identity format-idty{
+    description "Root identity for all event formats";
+  }
+  identity live {
+    base format-idty;
+  }
+   identity hybrid {
+    base format-idty;
+  }
+   identity virtual {
+    base format-idty;
+  }
+  identity live-main-event {
+    base live;
+  }
+  identity live-event {
+    base live;
+  }
+  identity live-satellite {
+    base live;
+  }
+  identity hybrid-main-event {
+    base hybrid;
+  }
+  identity hybrid-event {
+    base hybrid;
+  }
+  identity virtual-remote {
+    base virtual;
+  }
+
+  notification ticket-delivery {
+    leaf attendee {
+      type leafref {
+        path /devdays-attendees/devdays-attendee/first-name;
+      }
+    }
+    leaf event-name {
+      type leafref {
+        path /devdays-events/devdays-event/event-name;
+      }
+    }
+    leaf venue-name {
+      type leafref {
+        path /venues/venue/format/venue-name;
+      }
+    }
+    leaf format {
+      type leafref {
+        path /venues/venue/format/format-id;
+      }
+    }
+  }
+ 
+  container devdays-events {      
     description "all you need to know about the event";
 
     list devdays-event {
       key event-name;
-      leaf event-name {
+      leaf event-name {           //" e.g. Automation Developer Days 2020";
         type string;
-          //" Automation Developer Days 2020";
       }
-        leaf event-id {
+        leaf event-id {           //" GSMM event id";
         type uint32 ;
           default 1001;
-          //" GSMM event id";
-      }
-      leaf event-format {
-        type event-format-type;
-        default "hybrid";
-      }   
-      leaf start-date {
+      }  
+      leaf start-date {           //add format and restriction
         type string;
       }
       leaf event-length {
@@ -51,118 +84,112 @@ module devdays {
           range 1..5;
           } 
       }
-      list event-venues {
-        key event-venue;
-        leaf event-venue {
-          mandatory true;
-          type string;
-        }
-        leaf venue-format{
-          mandatory true;
-          type event-format-type; // case in-person or hybrid. what is max
-        }
-      }
+      
     }
   }
 
-  // container tickets {       //books
-  //   list ticket {
-  //     key ticket-id;
-  //   leaf ticket-id {
-  //     type uint32;
-  //   }
-  //   leaf ticket-event {
-  //     type leafref{
-  //     path /devdays-events/devdays-event/event-name;
-  //     }
-  //   }
-  //    leaf ticket-event-id {
-  //     type leafref{
-  //     path /devdays-events/devdays-event/event-id;
-  //     }
-  //   }
-  //   leaf ticket-event-access {
-  //     type leafref{
-  //     path /devdays-attendees/devdays-attendee/devdays-preferences/venue-access;
-  //     }
-  //   }
-  //    leaf ticket-speaker-and-staff {
-  //     type leafref{
-  //     path /devdays-speakers/speaker/email;
-  //     }
-  //   }
-  //   leaf ticket-price {
-  //     type uint32;
-  //     default 600;
-  //   }
-  //   //operational
-  //   leaf tickets-sold {
-  //     config false;
-  //     type uint32;
-  //     description "number of tickets sold";
-  //   }
-  //   }
-  // }      
+  container venues {
+    list venue {
+        key venue-name;
+        leaf venue-name {
+          mandatory true;
+          type string;
+        }
+        leaf event-name{
+          type leafref{
+            path /devdays-events/devdays-event/event-name;
+          }
+        }
+        
+        list format {
+          key venue-name;     
+          leaf venue-name{            //unique id, e.g 001
+            type string;
+          }
+          leaf format-id {
+            mandatory true;
+            type identityref {
+              base format-idty;
+            }
+          }
+          leaf ticket-price {
+            type uint32;
+          }
+        }
+        
+      }
+  }
+   
+  container devdays-attendees {     //users
 
-  // container devdays-attendees {     //users
+    list devdays-attendee {
+        key email;
 
-  //   list devdays-attendee {
-  //       key email;
+        leaf first-name {
+          mandatory true;
+          type string;  
+        }
+        // leaf last-name {
+        //   mandatory true;
+        //   type string;
+        // }
+        // leaf company {
+        //   mandatory true;
+        //   type string;
+        // }
+        // leaf work-title {
+        //   mandatory true;
+        //   type string;
+        // }
+        leaf email {
+          mandatory true;
+          type string;
+        } 
+        
+        } 
+      action checkout {         //inside list devday-attendee
+        input {
+          leaf event-name {
+            type leafref {
+              path /devdays-events/devdays-event/event-name;
+            }
+          }
+          leaf venue{
+            type leafref {
+              path /venues/venue/venue-name;
+            }
+          }
+          leaf format {
+            type leafref {
+              path /venues/venue/format/format-id;
+            }
+          }
 
-  //       leaf first-name {
-  //         mandatory true;
-  //         type string;  
-  //       }
-  //       leaf last-name {
-  //         mandatory true;
-  //         type string;
-  //       }
-  //       leaf company {
-  //         mandatory true;
-  //         type string;
-  //       }
-  //       leaf work-title {
-  //         mandatory true;
-  //         type string;
-  //       }
-  //       leaf email {
-  //         mandatory true;
-  //         type string;
-  //       } 
-  //       leaf role {       //new name?
-  //           mandatory true;
-  //           type enumeration{
-  //             enum "external";
-  //             enum "internal";
-
-  //           }
-  //         }
-  //       leaf region {
-  //           mandatory true;
-  //           type enumeration{
-  //             enum "emear";
-  //             enum "americas";
-  //             enum "apjc";
-  //           }
-  //         }
-
-  //       leaf devdays-venue-access {      // list correct? I don't want a list of preferences
-  //           mandatory true;
-  //           type event-access-type;   // in-person or hybrid?
-  //         }
-          
-  //       } 
-  //     action checkout {         //inside list devday-attendee
-  //       input {
-  //         leaf venue{
-  //           type leafref {
-  //             path /devdays-attendees/devdays-attendee/devdays-venue-access;
-  //           }
-  //         }
-
-  //       }
-  //     }
-  //   }
+        }
+        output {
+          choice outcome {
+            case success {
+              leaf success {
+                type empty; 
+                description "order received and will be sent to attendee";
+              }
+              leaf delivery-url {
+                type string;
+                description "link to ticket";
+              }
+            leaf no-seats-available {
+              type empty;
+              description "No seats available, a notification will be sent if seats are released";
+            }
+            leaf failure {
+              type string;
+              description "Order Canceled";
+            }
+            }
+          }
+        }
+      }
+    }
 
   // container devdays-speakers {
   //   description "all registered speakers";
