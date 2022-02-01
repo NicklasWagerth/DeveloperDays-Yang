@@ -630,3 +630,255 @@
 <DEBUG> 1-Feb-2022::10:41:51.734 NWAGERTH-M-90GM ncs[14240]: devel-c db reply daemon id: 6
 <DEBUG> 1-Feb-2022::10:42:03.426 NWAGERTH-M-90GM ncs[14240]: devel-c close_usess db request daemon id: 6
 <DEBUG> 1-Feb-2022::10:42:03.427 NWAGERTH-M-90GM ncs[14240]: devel-c db reply daemon id: 6
+<INFO> 1-Feb-2022::11:32:18.914 NWAGERTH-M-90GM ncs[22841]: ncs embedded apps in early_phase0:
+	[]
+<INFO> 1-Feb-2022::11:32:40.537 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in early_phase0:
+	[]
+<INFO> 1-Feb-2022::11:32:40.837 NWAGERTH-M-90GM ncs[22940]: ncs mmap_schema, started
+<INFO> 1-Feb-2022::11:32:40.851 NWAGERTH-M-90GM ncs[22940]: ncs mmap_schema not supported on platform
+<INFO> 1-Feb-2022::11:32:40.881 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in phase0:
+	[]
+<DEBUG> 1-Feb-2022::11:32:40.948 NWAGERTH-M-90GM ncs[22940]: devel-cdb Using delayed CDB journal compaction (automatic mode)
+<INFO> 1-Feb-2022::11:32:40.960 NWAGERTH-M-90GM ncs[22940]: devel-cdb Loaded schema file: ./ncs-cdb/C.cdb (v5 from ConfD version 7.5)
+<INFO> 1-Feb-2022::11:32:41.008 NWAGERTH-M-90GM ncs[22940]: devel-cdb Loaded oper data from ./ncs-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 1-Feb-2022::11:32:41.008 NWAGERTH-M-90GM ncs[22940]: devel-cdb Loaded snapshot data from ./ncs-cdb/S.cdb (32 bytes data in 0.001s)
+<INFO> 1-Feb-2022::11:32:41.008 NWAGERTH-M-90GM ncs[22940]: devel-cdb Loaded configuration from ./ncs-cdb/A.cdb (4.86 KiB data, 1 transaction in 0.002s)
+<INFO> 1-Feb-2022::11:32:41.012 NWAGERTH-M-90GM ncs[22940]: devel-cdb Initialized with existing snapshot db
+<INFO> 1-Feb-2022::11:32:41.093 NWAGERTH-M-90GM ncs[22940]: ncs encryptedStrings keys provided from config
+<INFO> 1-Feb-2022::11:32:41.093 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in phase1:
+	[]
+<DEBUG> 1-Feb-2022::11:32:41.222 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: ncs-internal-device-mgr, daemon id: 0)
+<DEBUG> 1-Feb-2022::11:32:41.222 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 0 worker id: 1)
+<DEBUG> 1-Feb-2022::11:32:41.251 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: snmp-config-transform, daemon id: 1)
+<DEBUG> 1-Feb-2022::11:32:41.252 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 1 worker id: 4)
+<DEBUG> 1-Feb-2022::11:32:41.254 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from snmp-config-transform
+<DEBUG> 1-Feb-2022::11:32:41.254 NWAGERTH-M-90GM ncs[22940]: devel-cdb client snmp-config-transform has pid 22960/6
+<DEBUG> 1-Feb-2022::11:32:41.254 NWAGERTH-M-90GM ncs[22940]: devel-cdb inactive client snmp-config-transform closed
+<DEBUG> 1-Feb-2022::11:32:41.255 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: snmp-config-hook, daemon id: 2)
+<DEBUG> 1-Feb-2022::11:32:41.256 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 2 worker id: 7)
+<DEBUG> 1-Feb-2022::11:32:41.284 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 3)
+<DEBUG> 1-Feb-2022::11:32:41.284 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 3 worker id: 1)
+<DEBUG> 1-Feb-2022::11:32:41.292 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: ncs-internal-service-mux, daemon id: 4)
+<DEBUG> 1-Feb-2022::11:32:41.292 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 4 worker id: 1)
+<DEBUG> 1-Feb-2022::11:32:41.292 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: ncs-internal-service-mux-completion, daemon id: 5)
+<DEBUG> 1-Feb-2022::11:32:41.293 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 5 worker id: 1)
+<INFO> 1-Feb-2022::11:32:41.318 NWAGERTH-M-90GM ncs[22940]: ncs initializing kickers
+<INFO> 1-Feb-2022::11:32:41.319 NWAGERTH-M-90GM ncs[22940]: ncs initializing kickers: ok (0.000 s)
+<DEBUG> 1-Feb-2022::11:32:41.401 NWAGERTH-M-90GM ncs[22940]: devel-cdb Loaded AAA data from CDB
+<INFO> 1-Feb-2022::11:32:41.470 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in phase1_delayed:
+	[]
+<DEBUG> 1-Feb-2022::11:32:41.490 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from econfd <0.171.0>
+<DEBUG> 1-Feb-2022::11:32:41.491 NWAGERTH-M-90GM ncs[22940]: devel-cdb new session on running for econfd <0.171.0>
+<DEBUG> 1-Feb-2022::11:32:41.501 NWAGERTH-M-90GM ncs[22940]: devel-cdb client econfd <0.171.0> closed
+<DEBUG> 1-Feb-2022::11:32:41.501 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from econfd <0.171.0>
+<DEBUG> 1-Feb-2022::11:32:41.501 NWAGERTH-M-90GM ncs[22940]: devel-cdb new session on operational for econfd <0.171.0>
+<DEBUG> 1-Feb-2022::11:32:41.501 NWAGERTH-M-90GM ncs[22940]: devel-cdb client econfd <0.171.0> closed
+<DEBUG> 1-Feb-2022::11:32:41.501 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from econfd <0.358.0>
+<DEBUG> 1-Feb-2022::11:32:41.501 NWAGERTH-M-90GM ncs[22940]: devel-cdb new subscriber session for econfd <0.358.0>
+<INFO> 1-Feb-2022::11:32:41.525 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in phase2:
+	[]
+<INFO> 1-Feb-2022::11:32:41.797 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 1-Feb-2022::11:32:41.797 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<INFO> 1-Feb-2022::11:32:41.797 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 1-Feb-2022::11:32:41.831 NWAGERTH-M-90GM ncs[22940]: devel-snmpa setting snmpEngineID: 80:00:7E:D9:04:74:65:73:74:69:6E:67
+<DEBUG> 1-Feb-2022::11:32:41.859 NWAGERTH-M-90GM ncs[22940]: devel-snmpa no view for view type: write
+<DEBUG> 1-Feb-2022::11:32:41.859 NWAGERTH-M-90GM ncs[22940]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv1(1), sec level: noAuthNoPriv(1)
+<DEBUG> 1-Feb-2022::11:32:41.859 NWAGERTH-M-90GM ncs[22940]: devel-snmpa no view for view type: write
+<DEBUG> 1-Feb-2022::11:32:41.859 NWAGERTH-M-90GM ncs[22940]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv2c(2), sec level: noAuthNoPriv(1)
+<INFO> 1-Feb-2022::11:32:41.891 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.891 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.896 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.897 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.897 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.898 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.899 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.900 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.900 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.901 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 1-Feb-2022::11:32:41.901 NWAGERTH-M-90GM ncs[22940]: devel-snmpa snmp agent started
+<DEBUG> 1-Feb-2022::11:32:41.983 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from NCSLOGGER-subscr
+<DEBUG> 1-Feb-2022::11:32:41.991 NWAGERTH-M-90GM ncs[22940]: devel-cdb new subscriber session for NCSLOGGER-subscr
+<DEBUG> 1-Feb-2022::11:32:42.010 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from ncsMain-alCdb
+<DEBUG> 1-Feb-2022::11:32:42.147 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from econfd <0.492.0>
+<DEBUG> 1-Feb-2022::11:32:42.147 NWAGERTH-M-90GM ncs[22940]: devel-cdb new subscriber session for econfd <0.492.0>
+<DEBUG> 1-Feb-2022::11:32:42.173 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: ncs-ned-builder-internal-dir-path, daemon id: 6)
+<DEBUG> 1-Feb-2022::11:32:42.173 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 6 worker id: 1)
+<DEBUG> 1-Feb-2022::11:32:42.192 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=6 tid=133 datastore=operational context=system automatically purging side-effect queue
+<DEBUG> 1-Feb-2022::11:32:42.192 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=6 tid=133 datastore=operational context=system automatically purging side-effect queue: 0 purged (0.000 s)
+<DEBUG> 1-Feb-2022::11:32:42.203 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=35 tid=137 datastore=operational context=system applying transaction
+<DEBUG> 1-Feb-2022::11:32:42.203 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=35 tid=137 datastore=operational context=system transaction empty
+<DEBUG> 1-Feb-2022::11:32:42.203 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=35 tid=137 datastore=operational context=system applying transaction: empty (0.000 s)
+<DEBUG> 1-Feb-2022::11:32:42.223 NWAGERTH-M-90GM ncs[22940]: devel-sls starting SLS server
+<DEBUG> 1-Feb-2022::11:32:49.865 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from econfd <0.569.0>
+<DEBUG> 1-Feb-2022::11:32:49.865 NWAGERTH-M-90GM ncs[22940]: devel-cdb new subscriber session for econfd <0.569.0>
+<DEBUG> 1-Feb-2022::11:32:49.865 NWAGERTH-M-90GM ncs[22940]: devel-cdb connect from econfd <0.571.0>
+<DEBUG> 1-Feb-2022::11:32:49.865 NWAGERTH-M-90GM ncs[22940]: devel-cdb new subscriber session for econfd <0.571.0>
+<DEBUG> 1-Feb-2022::11:32:49.866 NWAGERTH-M-90GM ncs[22940]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 1-Feb-2022::11:32:51.145 NWAGERTH-M-90GM ncs[22940]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::11:32:51.150 NWAGERTH-M-90GM ncs[22940]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::11:32:53.934 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system applying transaction
+<DEBUG> 1-Feb-2022::11:32:53.934 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system entering write-start phase
+<DEBUG> 1-Feb-2022::11:32:53.934 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system subsystem=cdb write-start
+<DEBUG> 1-Feb-2022::11:32:53.934 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system check data kickers
+<DEBUG> 1-Feb-2022::11:32:53.934 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system check data kickers: ok (0.000 s)
+<DEBUG> 1-Feb-2022::11:32:53.934 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system leaving write-start phase (0.000 s)
+<DEBUG> 1-Feb-2022::11:32:53.935 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system entering prepare phase
+<DEBUG> 1-Feb-2022::11:32:53.935 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system subsystem=cdb prepare
+<DEBUG> 1-Feb-2022::11:32:53.935 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system leaving prepare phase (0.000 s)
+<DEBUG> 1-Feb-2022::11:32:53.935 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system entering commit phase
+<DEBUG> 1-Feb-2022::11:32:53.935 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system subsystem=cdb commit
+<DEBUG> 1-Feb-2022::11:32:53.935 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system leaving commit phase (0.000 s)
+<DEBUG> 1-Feb-2022::11:32:53.935 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=40 tid=141 datastore=operational context=system applying transaction: ok (0.001 s)
+<DEBUG> 1-Feb-2022::11:32:54.900 NWAGERTH-M-90GM ncs[22940]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c new_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 6
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c close_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c close_usess db request daemon id: 6
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 6
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 6
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c new_usess db request daemon id: 5
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 5
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c close_usess db request daemon id: 5
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 5
+<DEBUG> 1-Feb-2022::11:33:01.180 NWAGERTH-M-90GM ncs[22940]: devel-c new_usess db request daemon id: 4
+<DEBUG> 1-Feb-2022::11:33:01.181 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 4
+<DEBUG> 1-Feb-2022::11:33:01.181 NWAGERTH-M-90GM ncs[22940]: devel-c close_usess db request daemon id: 4
+<DEBUG> 1-Feb-2022::11:33:01.181 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 4
+<DEBUG> 1-Feb-2022::11:33:01.181 NWAGERTH-M-90GM ncs[22940]: devel-c new_usess db request daemon id: 3
+<DEBUG> 1-Feb-2022::11:33:01.181 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 3
+<DEBUG> 1-Feb-2022::11:33:01.181 NWAGERTH-M-90GM ncs[22940]: devel-c close_usess db request daemon id: 3
+<DEBUG> 1-Feb-2022::11:33:01.181 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 3
+<INFO> 1-Feb-2022::11:33:01.190 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in early_phase0:
+	[]
+<INFO> 1-Feb-2022::11:33:01.355 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 1-Feb-2022::11:33:01.356 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 1-Feb-2022::11:33:01.356 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::11:33:01.357 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::11:33:01.357 NWAGERTH-M-90GM ncs[22940]: devel-snmpa loaded snmp mib: /Users/nwagerth/nso-5.5/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 1-Feb-2022::11:33:01.366 NWAGERTH-M-90GM ncs[22940]: devel-cdb upgrade: processing data in module devdays
+<INFO> 1-Feb-2022::11:33:01.366 NWAGERTH-M-90GM ncs[22940]: devel-cdb upgrade: revision: devdays@2022-02-01
+<INFO> 1-Feb-2022::11:33:01.366 NWAGERTH-M-90GM ncs[22940]: devel-cdb upgrade: completed module devdays
+<INFO> 1-Feb-2022::11:33:01.412 NWAGERTH-M-90GM ncs[22940]: devel-cdb init files found in ./packages: 
+<INFO> 1-Feb-2022::11:33:01.413 NWAGERTH-M-90GM ncs[22940]: devel-cdb init files found in /Users/nwagerth/nso-5.5/etc/ncs: 
+<INFO> 1-Feb-2022::11:33:01.413 NWAGERTH-M-90GM ncs[22940]: devel-cdb init files found in /Users/nwagerth/nso-5.5/etc/ncs/snmp: snmp_init.xml
+<INFO> 1-Feb-2022::11:33:01.414 NWAGERTH-M-90GM ncs[22940]: devel-cdb init files found in ./state/packages-in-use/1/devdays/load-dir: 
+<INFO> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli applying transaction
+<DEBUG> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans request daemon id: 4 thandle: -2
+<INFO> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli entering validate phase
+<INFO> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli grabbing transaction lock
+<DEBUG> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans succeeded daemon id: 4 session id: -2 worker id: 1
+<INFO> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli grabbing transaction lock: ok (0.000 s)
+<DEBUG> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: devel-c new_usess db request daemon id: 0
+<DEBUG> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 0
+<DEBUG> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans request daemon id: 0 thandle: -2
+<DEBUG> 1-Feb-2022::11:33:01.431 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans succeeded daemon id: 0 session id: -2 worker id: 1
+<DEBUG> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: devel-c trans_lock request daemon id: 4 session id: -2
+<DEBUG> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: devel-c trans_lock succeeded daemon id: 4 session id: -2
+<INFO> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli mark inactive
+<INFO> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli mark inactive: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli pre validate
+<INFO> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli pre validate: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli run validation over the changeset
+<INFO> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli run validation over the changeset: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:01.432 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli run dependency-triggered validation
+<INFO> 1-Feb-2022::11:33:01.434 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli run dependency-triggered validation: ok (0.001 s)
+<INFO> 1-Feb-2022::11:33:01.434 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli check configuration policies
+<INFO> 1-Feb-2022::11:33:01.434 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli check configuration policies: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:01.434 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli leaving validate phase (0.003 s)
+<INFO> 1-Feb-2022::11:33:01.435 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli entering write-start phase
+<INFO> 1-Feb-2022::11:33:01.436 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli subsystem=cdb write-start
+<INFO> 1-Feb-2022::11:33:01.446 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli check data kickers
+<INFO> 1-Feb-2022::11:33:01.446 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli check data kickers: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:01.446 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli transaction empty
+<INFO> 1-Feb-2022::11:33:01.446 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli leaving write-start phase (0.011 s)
+<INFO> 1-Feb-2022::11:33:01.446 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli entering commit phase
+<INFO> 1-Feb-2022::11:33:01.446 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli subsystem=cdb commit
+<INFO> 1-Feb-2022::11:33:01.447 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli subsystem=ncs-internal-service-mux commit
+<DEBUG> 1-Feb-2022::11:33:01.447 NWAGERTH-M-90GM ncs[22940]: devel-c commit request daemon id: 4 session id: -2
+<INFO> 1-Feb-2022::11:33:01.447 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli subsystem=ncs-internal-device-mgr commit
+<DEBUG> 1-Feb-2022::11:33:01.447 NWAGERTH-M-90GM ncs[22940]: devel-c commit succeeded daemon id: 4 session id: -2
+<DEBUG> 1-Feb-2022::11:33:01.447 NWAGERTH-M-90GM ncs[22940]: devel-c commit request daemon id: 0 session id: -2
+<DEBUG> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: devel-c commit succeeded daemon id: 0 session id: -2
+<INFO> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli releasing transaction lock
+<INFO> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli leaving commit phase (0.001 s)
+<DEBUG> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans request daemon id: 4 session id: -2
+<INFO> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=-2 datastore=running context=cli applying transaction: ok (0.016 s)
+<DEBUG> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans succeeded daemon id: 4 session id: -2
+<DEBUG> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans request daemon id: 0 session id: -2
+<DEBUG> 1-Feb-2022::11:33:01.448 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans succeeded daemon id: 0 session id: -2
+<INFO> 1-Feb-2022::11:33:01.453 NWAGERTH-M-90GM ncs[22940]: ncs mmap_schema, started
+<INFO> 1-Feb-2022::11:33:01.453 NWAGERTH-M-90GM ncs[22940]: ncs mmap_schema, wait for response...
+<INFO> 1-Feb-2022::11:33:01.461 NWAGERTH-M-90GM ncs[22940]: ncs mmap_schema, reponse not_supported...ok
+<INFO> 1-Feb-2022::11:33:01.473 NWAGERTH-M-90GM ncs[22940]: devel-cdb CDB Operational: upgraded oper-data
+<DEBUG> 1-Feb-2022::11:33:01.475 NWAGERTH-M-90GM ncs[22940]: devel-aaa Re loaded AAA
+<DEBUG> 1-Feb-2022::11:33:01.475 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=6 tid=151 datastore=operational context=system automatically purging side-effect queue
+<DEBUG> 1-Feb-2022::11:33:01.476 NWAGERTH-M-90GM ncs[22940]: devel-c Daemon closed (name: ncs-internal-template-variable, daemon id: 3)
+<DEBUG> 1-Feb-2022::11:33:01.476 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=6 tid=151 datastore=operational context=system automatically purging side-effect queue: 0 purged (0.000 s)
+<DEBUG> 1-Feb-2022::11:33:01.476 NWAGERTH-M-90GM ncs[22940]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 7)
+<DEBUG> 1-Feb-2022::11:33:01.476 NWAGERTH-M-90GM ncs[22940]: devel-c New worker connected (daemon id: 7 worker id: 1)
+<INFO> 1-Feb-2022::11:33:01.487 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in phase0:
+	[]
+<INFO> 1-Feb-2022::11:33:01.487 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in phase1:
+	[]
+<INFO> 1-Feb-2022::11:33:01.487 NWAGERTH-M-90GM ncs[22940]: ncs embedded apps in phase2:
+	[]
+<DEBUG> 1-Feb-2022::11:33:01.541 NWAGERTH-M-90GM ncs[22940]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production,1.0_d1445dab-9d96-4593-99f2-6f633b8a759c">> version:<<"1.0">> count:1
+<DEBUG> 1-Feb-2022::11:33:02.854 NWAGERTH-M-90GM ncs[22940]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-network-element,1.0_5d641fa0-757d-43b0-a926-166cb6e3cfdd">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::11:33:02.859 NWAGERTH-M-90GM ncs[22940]: devel-sls request entitlement tag:<<"regid.2015-10.com.cisco.NSO-platform-production-standby,1.0_c1a6183d-336a-4f35-af72-49a0d99b02b8">> version:<<"1.0">> count:0
+<DEBUG> 1-Feb-2022::11:33:04.919 NWAGERTH-M-90GM ncs[22940]: devel-sls received global notification: notification_type = notify_enforcement_mode, enforce_mode = eval
+<INFO> 1-Feb-2022::11:33:36.944 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli applying transaction
+<DEBUG> 1-Feb-2022::11:33:36.944 NWAGERTH-M-90GM ncs[22940]: devel-c new_usess db request daemon id: 4
+<INFO> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli entering validate phase
+<DEBUG> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 4
+<INFO> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli grabbing transaction lock
+<DEBUG> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans request daemon id: 4 thandle: 158
+<INFO> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli grabbing transaction lock: ok (0.000 s)
+<DEBUG> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans succeeded daemon id: 4 session id: 158 worker id: 1
+<DEBUG> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: devel-c new_usess db request daemon id: 0
+<DEBUG> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: devel-c db reply daemon id: 0
+<DEBUG> 1-Feb-2022::11:33:36.945 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans request daemon id: 0 thandle: 158
+<DEBUG> 1-Feb-2022::11:33:36.946 NWAGERTH-M-90GM ncs[22940]: devel-c new_trans succeeded daemon id: 0 session id: 158 worker id: 1
+<DEBUG> 1-Feb-2022::11:33:36.946 NWAGERTH-M-90GM ncs[22940]: devel-c trans_lock request daemon id: 4 session id: 158
+<DEBUG> 1-Feb-2022::11:33:36.946 NWAGERTH-M-90GM ncs[22940]: devel-c trans_lock succeeded daemon id: 4 session id: 158
+<INFO> 1-Feb-2022::11:33:36.946 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli creating rollback file
+<INFO> 1-Feb-2022::11:33:36.951 NWAGERTH-M-90GM ncs[22940]: ncs Getting delta diff, no alt-name: true
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli creating rollback file: ok (0.005 s)
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli run transforms and transaction hooks
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli run transforms and transaction hooks: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli mark inactive
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli mark inactive: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli pre validate
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli pre validate: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli run validation over the changeset
+<INFO> 1-Feb-2022::11:33:36.952 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli run validation over the changeset: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.953 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli run dependency-triggered validation
+<INFO> 1-Feb-2022::11:33:36.953 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli run dependency-triggered validation: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.953 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli check configuration policies
+<INFO> 1-Feb-2022::11:33:36.953 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli check configuration policies: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.953 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli leaving validate phase (0.009 s)
+<INFO> 1-Feb-2022::11:33:36.953 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli entering write-start phase
+<INFO> 1-Feb-2022::11:33:36.953 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli subsystem=cdb write-start
+<INFO> 1-Feb-2022::11:33:36.954 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli check data kickers
+<INFO> 1-Feb-2022::11:33:36.954 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli check data kickers: ok (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.954 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli leaving write-start phase (0.000 s)
+<INFO> 1-Feb-2022::11:33:36.954 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli entering prepare phase
+<INFO> 1-Feb-2022::11:33:36.954 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli subsystem=cdb prepare
+<DEBUG> 1-Feb-2022::11:33:36.954 NWAGERTH-M-90GM ncs[22940]: devel-c prepare request daemon id: 0 session id: 158
+<INFO> 1-Feb-2022::11:33:36.954 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli subsystem=ncs-internal-device-mgr prepare
+<DEBUG> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: devel-c prepare succeeded daemon id: 0 session id: 158
+<INFO> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli leaving prepare phase (0.009 s)
+<INFO> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli entering commit phase
+<INFO> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli subsystem=cdb commit
+<INFO> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli subsystem=ncs-internal-service-mux commit
+<DEBUG> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: devel-c commit request daemon id: 4 session id: 158
+<INFO> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli subsystem=ncs-internal-device-mgr commit
+<DEBUG> 1-Feb-2022::11:33:36.964 NWAGERTH-M-90GM ncs[22940]: devel-c commit succeeded daemon id: 4 session id: 158
+<DEBUG> 1-Feb-2022::11:33:36.965 NWAGERTH-M-90GM ncs[22940]: devel-c commit request daemon id: 0 session id: 158
+<DEBUG> 1-Feb-2022::11:33:36.965 NWAGERTH-M-90GM ncs[22940]: devel-c commit succeeded daemon id: 0 session id: 158
+<INFO> 1-Feb-2022::11:33:36.966 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli releasing transaction lock
+<INFO> 1-Feb-2022::11:33:36.966 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli leaving commit phase (0.001 s)
+<INFO> 1-Feb-2022::11:33:36.966 NWAGERTH-M-90GM ncs[22940]: ncs progress usid=39 tid=158 datastore=running context=cli applying transaction: ok (0.022 s)
+<DEBUG> 1-Feb-2022::11:33:36.966 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans request daemon id: 4 session id: 158
+<DEBUG> 1-Feb-2022::11:33:36.966 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans succeeded daemon id: 4 session id: 158
+<DEBUG> 1-Feb-2022::11:33:36.966 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans request daemon id: 0 session id: 158
+<DEBUG> 1-Feb-2022::11:33:36.966 NWAGERTH-M-90GM ncs[22940]: devel-c close_trans succeeded daemon id: 0 session id: 158

@@ -122,3 +122,27 @@ count(
 1-Feb-2022::10:41:32.165 maapi_xpath_eval_expr(): evaluating: string(count(/devices/device/remote-node))
 1-Feb-2022::10:41:32.166 get_next(/devices/device) = false
 1-Feb-2022::10:41:32.166 maapi_xpath_eval_expr(): result: 0
+1-Feb-2022::11:32:42.254 maapi_xpath_eval_expr(): evaluating: string(count(/devices/device))
+1-Feb-2022::11:32:42.260 num_instances(/devices/device) = 0
+1-Feb-2022::11:32:42.260 maapi_xpath_eval_expr(): result: 0
+1-Feb-2022::11:32:42.261 maapi_xpath_eval_expr(): evaluating: string(count(/devices/device/remote-node))
+1-Feb-2022::11:32:42.261 get_next(/devices/device) = false
+1-Feb-2022::11:32:42.261 maapi_xpath_eval_expr(): result: 0
+1-Feb-2022::11:33:01.433 evaluating: /cluster/commit-queue/enabled:  . = 'false' or ../../remote-node
+1-Feb-2022::11:33:01.433 get_elem(/cluster/commit-queue/enabled) = false
+1-Feb-2022::11:33:01.433 result: /cluster/commit-queue/enabled: true
+1-Feb-2022::11:33:01.433 evaluating: /cluster/commit-queue/enabled:  . = 'false' or
+not (/cluster/remote-node
+       [not (username)]
+       [deref(authgroup)/../default-map[same-user or same-pass]])
+1-Feb-2022::11:33:01.433 get_elem(/cluster/commit-queue/enabled) = false [cached]
+1-Feb-2022::11:33:01.433 result: /cluster/commit-queue/enabled: true
+1-Feb-2022::11:33:01.433 evaluating: /cluster/device-notifications/enabled:  . = 'false' or ../../remote-node
+1-Feb-2022::11:33:01.434 get_elem(/cluster/device-notifications/enabled) = false
+1-Feb-2022::11:33:01.434 result: /cluster/device-notifications/enabled: true
+1-Feb-2022::11:33:01.434 evaluating: /cluster/device-notifications/enabled:  . = 'false' or
+not (/cluster/remote-node
+       [not (username)]
+       [deref(authgroup)/../default-map[same-user or same-pass]])
+1-Feb-2022::11:33:01.434 get_elem(/cluster/device-notifications/enabled) = false [cached]
+1-Feb-2022::11:33:01.434 result: /cluster/device-notifications/enabled: true

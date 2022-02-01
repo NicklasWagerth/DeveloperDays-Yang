@@ -7,7 +7,7 @@ module devdays {
   prefix devdays;
 
  revision 2022-02-01 {
-   description "started from scratch" + "revision history in github";
+   description "Starting all over";
  } 
   typedef event-format-type {
         type enumeration {
